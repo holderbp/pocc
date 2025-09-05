@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="10in"
+   height="6in"
+   viewBox="0 0 254 152.4"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="temperature-scales.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.5946522"
+     inkscape:cx="364.07836"
+     inkscape:cy="269.90567"
+     inkscape:window-width="1512"
+     inkscape:window-height="752"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer3" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="behind-thermometers">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.41111;stroke-dasharray:4.23333, 4.23333;stroke-dashoffset:0"
+       d="m 4.0044417,60.066623 245.6057483,0"
+       id="path1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.41111;stroke-dasharray:4.23333, 4.23333;stroke-dashoffset:0"
+       d="M 4.0044421,78.627723 H 249.61019"
+       id="path1-5"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.41111;stroke-dasharray:4.23333, 4.23333;stroke-dashoffset:0"
+       d="M 4.9381129,138.50493 H 250.54386"
+       id="path1-5-4"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="8.2695217"
+       y="77.091484"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+         x="8.2695217"
+         y="77.091484">273 K</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="12.224577"
+       y="136.52501"
+       id="text1-8"><tspan
+         sodipodi:role="line"
+         id="tspan1-9"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+         x="12.224577"
+         y="136.52501">0 K</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="38.195412"
+       y="148.80461"
+       id="text1-4"><tspan
+         sodipodi:role="line"
+         id="tspan1-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+         x="38.195412"
+         y="148.80461">Kelvin</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="119.29284"
+       y="148.80048"
+       id="text1-4-5"><tspan
+         sodipodi:role="line"
+         id="tspan1-1-3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+         x="119.29284"
+         y="148.80048">Celsius</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="195.64977"
+       y="148.80461"
+       id="text1-4-5-5"><tspan
+         sodipodi:role="line"
+         id="tspan1-1-3-9"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+         x="195.64977"
+         y="148.80461">Fahrenheit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="8.2342167"
+       y="58.251167"
+       id="text1-2"><tspan
+         sodipodi:role="line"
+         id="tspan1-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+         x="8.2342167"
+         y="58.251167">300 K</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="98.42733"
+       y="77.308372"
+       id="text1-2-8"><tspan
+         sodipodi:role="line"
+         id="tspan1-2-7"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+         x="98.42733"
+         y="77.308372">0  C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="95.122643"
+       y="58.329716"
+       id="text1-2-8-4"><tspan
+         sodipodi:role="line"
+         id="tspan1-2-7-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+         x="95.122643"
+         y="58.329716">27  C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="178.08913"
+       y="57.814953"
+       id="text1-2-8-4-7"><tspan
+         sodipodi:role="line"
+         id="tspan1-2-7-0-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+         x="178.08913"
+         y="57.814953">80  F</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="177.79271"
+       y="76.993752"
+       id="text1-2-8-4-7-8"><tspan
+         sodipodi:role="line"
+         id="tspan1-2-7-0-5-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+         x="177.79271"
+         y="76.993752">32  F</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="103.103"
+       y="73.080299"
+       id="text1-2-9"><tspan
+         sodipodi:role="line"
+         id="tspan1-2-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+         x="103.103"
+         y="73.080299">o</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="105.07021"
+       y="53.945843"
+       id="text1-2-9-4"><tspan
+         sodipodi:role="line"
+         id="tspan1-2-0-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+         x="105.07021"
+         y="53.945843">o</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="188.0065"
+       y="53.244965"
+       id="text1-2-9-4-0"><tspan
+         sodipodi:role="line"
+         id="tspan1-2-0-0-4"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+         x="188.0065"
+         y="53.244965">o</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="187.94205"
+       y="72.309364"
+       id="text1-2-9-4-0-0"><tspan
+         sodipodi:role="line"
+         id="tspan1-2-0-0-4-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+         x="187.94205"
+         y="72.309364">o</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="themometer-backgrounds">
+    <rect
+       style="fill:#000080;fill-opacity:0.27;stroke-width:0.352999"
+       id="rect1"
+       width="28.476028"
+       height="134.37126"
+       x="37.374786"
+       y="4.4493794" />
+    <rect
+       style="fill:#000080;fill-opacity:0.27;stroke-width:0.352999"
+       id="rect1-0"
+       width="28.476028"
+       height="134.37126"
+       x="119.62594"
+       y="4.4493794" />
+    <rect
+       style="fill:#000080;fill-opacity:0.27;stroke-width:0.352999"
+       id="rect1-9"
+       width="28.476028"
+       height="134.37126"
+       x="201.87709"
+       y="4.4493794" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke-width:0.352999"
+       id="rect1-98"
+       width="11.123452"
+       height="100.55597"
+       x="46.738918"
+       y="39.105568"
+       ry="14.238014"
+       rx="5.5617261" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke-width:0.352999"
+       id="rect1-98-9"
+       width="11.123452"
+       height="100.55597"
+       x="127.83038"
+       y="39.168335"
+       ry="14.238014"
+       rx="5.5617261" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke-width:0.352999"
+       id="rect1-98-7"
+       width="11.123452"
+       height="100.55597"
+       x="212.09972"
+       y="39.109798"
+       ry="14.238014"
+       rx="5.5617261" />
+  </g>
+</svg>

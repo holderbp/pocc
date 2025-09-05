@@ -1,0 +1,7 @@
+
+Global Monitoring Lab (Mauna Loa)
+https://gml.noaa.gov/dv/iadv/graph.php?code=MLO&program=ccgg&type=ts
+
+Wiki: emergence of temperatures from range of historical variability
+https://en.wikipedia.org/wiki/File:20200509_Emergence_of_temperatures_from_range_of_normal_historical_variability_-_tropical_vs_northern_Americas_(Hawkins).gif
+

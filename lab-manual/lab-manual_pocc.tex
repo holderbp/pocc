@@ -1,0 +1,120 @@
+\documentclass[letter,12pt]{book}
+
+%%% My math packages
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[amssymb]{SIunits}
+
+\usepackage{graphicx}
+
+%\usepackage[normalem]{ulem}
+
+%%% ChatGPT boilerplate for 1in margins, no header-footer, 12pt sans-serif font, with title page
+% Margins
+%\usepackage[margin=1in]{geometry}
+\usepackage[margin=1in]{geometry}
+
+% Double spacing
+\usepackage{setspace}
+%\doublespacing
+
+% Call the chapters "Lab"
+ \renewcommand{\chaptername}{Lab}
+%\addto\captionsenglish{\renewcommand{\chaptername}{Lab}}
+
+\usepackage{multicol}
+
+% adjust the itemized lists
+\usepackage{enumitem}
+% Global tightening for all lists (itemize, enumerate, description)
+\setlist{
+  topsep=4pt,      % space above and below the whole list (between paragraph and list)
+  partopsep=0pt,   % extra space when list starts a new paragraph
+  itemsep=2pt,     % space between items
+  parsep=0pt       % extra vertical space within an item that contains paragraphs
+}
+% define a special list called "equipment"
+\newlist{equipment}{itemize}{1}
+\setlist[equipment]{label=\textbullet, leftmargin=*, topsep=0pt, itemsep=1pt, parsep=0pt, partopsep=0pt}
+
+
+% global control for question formatting
+\newlength{\AnswerSpace}            % default size for answer space
+\setlength{\AnswerSpace}{4\baselineskip} % change this to taste
+
+%
+% Question Formatting
+%
+% questions environment and a command \Q[<height>]{<question text>}
+\newenvironment{questions}
+ % {\begin{enumerate}[label=\textbf{Question \arabic*:}, leftmargin=*]}
+  {\begin{enumerate}[leftmargin=*]}
+  {\end{enumerate}}
+% \Q[<optional-vspace>]{Question text}
+% optional argument is a length (eg. 3\baselineskip, 2cm). If omitted uses \AnswerSpace.
+\newcommand{\Q}[2][]{%
+  \item #2\par
+  \vspace{%
+    \ifx\\#1\\\AnswerSpace\else#1\fi
+  }%
+}
+
+% links within and to web pages
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,     % false: boxed links; true: colored links
+    linkcolor=red,       % color of internal links
+    citecolor=blue,      % color of links to bibliography
+    filecolor=blue,      % color of file links
+    urlcolor=blue        % color of external links
+}
+
+% San-serif font
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{sfmath}
+\renewcommand{\familydefault}{\sfdefault}
+
+% DEFINITIONS should use this ``defterm'' macro, and  will generally be bold-font, but could be changed universally here
+% (I will use regular itemize without bullets for all definitions)
+\newcommand{\defterm}[1]{\textbf{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%%%%%%%%%%%%%%%%%  Title page  %%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+    \centering
+    \vspace*{\fill}
+    {\Huge Lab Manual\par}
+    {\Large The Physics of Climate Change\par}
+    \vspace{1in}
+    {\large Benjamin Holder\par}
+    {\large GVSU Physics\par}
+    Fall 2025
+    \vspace*{\fill}
+\end{titlepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%  Table of Contents  %%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                        Week 01 ---   Measurement and Uncertainty
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{chapter_01_measurement-uncertainty-temperature}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                        Week 02 ---   Global Average Temperature
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\include{chapter_02_global-average-temperature}
+
+
+\end{document}
+

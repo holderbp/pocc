@@ -1,0 +1,41 @@
+\documentclass[12pt, oneside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lipsum}
+
+% E.G., only include chapter 2 for now
+%\includeonly{pocc_lecture-notes_02_contemporary-climate-change}
+
+\begin{document}
+
+%===================================
+\frontmatter
+
+\title{The Physics of Climate Change}
+\author{Ben Holder}
+\date{\today}
+\maketitle
+\tableofcontents
+
+
+%===================================
+\mainmatter
+\include{pocc_lecture-notes_01_history-time-measurement}
+\include{pocc_lecture-notes_02_contemporary-climate-change}
+\include{pocc_lecture-notes_03_energy-and-equilibrium}
+\include{pocc_lecture-notes_04_blackbody-radiation-equilibrium}
+\include{pocc_lecture-notes_05_atmosphere-and-greenhouse-I}
+\include{pocc_lecture-notes_06_atmosphere-and-greenhouse-II}
+\include{pocc_lecture-notes_07_water-and-phase-transitions}
+\include{pocc_lecture-notes_08_radiative-convective-equilib}
+\include{pocc_lecture-notes_09_orbital-effects-paleoclimate}
+\include{pocc_lecture-notes_10_sensitivity-temperature-to-CO2}
+\include{pocc_lecture-notes_11_timescales-of-climate-change}
+\include{pocc_lecture-notes_12_modeling-climate-change}
+%===================================
+
+\backmatter
+\include{pocc_appendix_A_stuff}
+
+\end{document}
+

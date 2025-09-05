@@ -1,0 +1,140 @@
+import sys
+import numpy as np
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+from matplotlib.ticker import AutoMinorLocator, LogLocator
+
+#
+# Script to create a 14in x 2in plot to be used in a 5-row ledger sized
+# page which will be constructed in an inkscape svg file.  Select "plotrow"
+#
+
+output_file_type = 'pdf' # [pdf, svg]
+
+#--- setting up Arial font
+mpl.rcParams['font.family'] = 'sans-serif'
+mpl.rcParams['font.sans-serif'] = ['Arial', 'DejaVu Sans', 'Liberation Sans']  # fallback list
+# ensure fonts are embedded nicely in vector output (Type 42 TrueType)
+mpl.rcParams['pdf.fonttype'] = 42
+mpl.rcParams['ps.fonttype']  = 42
+
+# give the row [1-5] as the single commandline argument
+plotrow = int(sys.argv[1]) - 1  # see below
+
+# lightness of plotted lines [0-1]
+plot_alpha = 0.25
+
+#### data files for each row
+#  row       plot-timespan   data-timespan           name
+#   0        5 Gya           500Mya                  royer
+#   1        100 Mya         65Mya/500Mya            zachos/royer
+#   2        1 Mya           5Mya/800kya             lisiecki/epica
+#   3        20kya           800kya/123kya/11kya     epica/ngrip/marcott
+#   4        14Gya (log)                             royer/zachos/lisiecki/epica/marcott/best
+datadir = "data/"
+filename = {
+    "royer": datadir + "royer-2004_500Mya-present.dat",
+    "zachos": datadir + "zachos-2008_65Mya-present.dat",
+    "lisiecki": datadir + "lisiecki-raymo-2005_5Mya-present.dat",
+    "epica": datadir + "epica-dome-C-antartica_800kya-present.dat",
+    "ngrip": datadir + "ngrip-greenland-johnson-1989_123ky-present.dat",
+    "marcott": datadir + "marcott-2013_11kya-present.dat",
+    "best": datadir + "best-2015_160ya-present.dat"
+}
+# units used in each datafile (either Mya or kya)
+file_units = {
+    "royer": 1000000,
+    "zachos": 1000000,
+    "lisiecki": 1000,
+    "epica": 1000,
+    "ngrip": 1000,
+    "marcott": 1000,
+    "best": 1000,
+}
+file_color = {
+    "royer": 'tab:blue',
+    "zachos": 'tab:orange',
+    "lisiecki": 'tab:green',
+    "epica": 'tab:red',
+    "ngrip": 'tab:brown',
+    "marcott": 'tab:gray',
+    "best": 'black',
+}    
+# datasets to be plotted for each row
+data_for_row = [
+    ["royer"],
+    ["royer", "zachos"],
+    ["zachos", "lisiecki", "epica"],
+    #["lisiecki", "epica", "ngrip", "marcott", "best"],
+    ["lisiecki", "marcott", "best"],
+    ["royer", "zachos", "lisiecki", "epica", "marcott", "best"],
+    ]
+# units to be used for plotting each row (Mya, kya, ya)
+units_for_row = [1000000, 1000000, 1000, 1, 1]
+# starting time  (5Gya = 5000 Mya, 100 Mya, 1 Mya = 1000 kya, 20 kya, 20Gya)
+#left_time_for_row = [5000, 100, 1000, 4000, 2e10]
+left_time_for_row = [5000, 100, 1000, 14000, 2e10]
+# min/max Temp bounds for plot
+tempbounds_for_row = [ [-7, 17], [-7, 18], [-7, 6], [-2.5, 3], [-7, 16] ] 
+# number of minor tick marks for rows 1-4
+tickmarks_for_row = [5, 4, 4, 5]
+# outfile name
+outname_for_row = ["row1_5Gya.", "row2_100Mya.",
+                   "row3_1Mya.", "row4_4kya.", "row5_log-all."]
+
+# I will be making a ledger sized full plot (17x11) with five rows,
+# so each row will be 2in high, 14in wide
+# (I will place a 2x2 in "calendar", ala carl sagan, to the left of each row)
+plot_w_in = 17.0 # aiming for 14in but after tight bounding box it shrinks
+plot_h_in = 2.0
+
+######################### Making the Plot #######################
+#--- set up fig + axis objects
+fig, ax = plt.subplots(figsize=(plot_w_in, plot_h_in))
+#--- Plot a temperature anomaly zero line
+ax.axhline(0.0, color='k', linestyle='--', alpha=plot_alpha)
+#--- Load each temperature datafile and plot
+for f in data_for_row[plotrow]:
+    # load data into array
+    arr = np.loadtxt(filename[f])
+    # adjust units to plot
+    arr[:,0] *= (file_units[f] / units_for_row[plotrow])
+    # adjust temp data
+    #  (it seems that the baseline in the best data (see data file from Met)
+    #   is different than the one used for marcott... could be that the best
+    #   "pre-industrial" is based on measured values whose average is lower
+    #   than the 20ky "pre-industrial" that marcott can see... so I lifted
+    #   the best values to match the marcott values nearby)
+    if f == "best":
+        arr[:,1] += 0.5  # to better align with marcott
+    # plot data as black line
+    print("plotting", filename[f])
+    if f == "best":
+        ax.scatter(arr[:,0], arr[:,1], c = file_color[f], alpha=plot_alpha)
+    else:
+        ax.plot(arr[:,0], arr[:,1], c = file_color[f], alpha=plot_alpha)
+#--- Set axis bounds and decorate
+# logscale for 5th plot
+if plotrow == 4:
+    ax.set_xscale('log')
+#--- Add minor ticks
+if plotrow == 4:
+    # log axis: major ticks = decades, minor ticks at 2..9 * 10^n
+    ax.xaxis.set_major_locator(LogLocator(base=10.0, numticks=12))
+    ax.xaxis.set_minor_locator(LogLocator(base=10.0, subs=range(1,10), numticks=50))
+    # optionally lighten major tick labels formatting
+    # ax.xaxis.set_major_formatter(ScalarFormatter())  # if you prefer plain numbers
+else:
+    ax.xaxis.set_minor_locator(AutoMinorLocator(n=tickmarks_for_row[plotrow])) 
+# make a decreasing axis scale
+if plotrow < 4:
+    ax.set_xlim(left_time_for_row[plotrow], 0)
+else:
+    ax.set_xlim(left_time_for_row[plotrow], 0.1)
+# label vertical axis only (or not... probably not)
+#ax.set_ylabel("T (C)")
+# set bounds of vertical axis
+ax.set_ylim(tempbounds_for_row[plotrow])
+# save to pdf
+print("outputting:\n" + outname_for_row[plotrow] + output_file_type)
+fig.savefig(outname_for_row[plotrow]+output_file_type, format=output_file_type, bbox_inches='tight') 

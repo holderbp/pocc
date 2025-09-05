@@ -1,0 +1,15 @@
+\contentsline {chapter}{\numberline {1}Measurement, Uncertainty, and Temperature}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction and Definitions}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Experiments}{6}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}The time of my name}{6}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}``Seeing'' the uncertainty I: Room Temperature}{7}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}``Seeing'' the uncertainty II: Body Temperature}{8}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Leslie Cube}{9}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Temperatures of other objects}{9}{subsection.1.2.5}%
+\contentsline {chapter}{\numberline {2}Global Average Temperature}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction and Definitions}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Experiments and Activities}{14}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Temperature Anomalies}{14}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}The approach to an average}{15}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Global average temperature (of your table)}{15}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Global average temperature (of the Earth land surface)}{16}{subsection.2.2.4}%
