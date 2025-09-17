@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.26)  10 SEP 2025 11:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.26)  17 SEP 2025 12:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -496,7 +496,8 @@ LaTeX Warning: Unused global option(s):
 
 (./lab-manual_pocc.aux (./chapter_01_measurement-uncertainty-temperature.aux)
 (./chapter_02_global-average-temperature.aux)
-(./chapter_03_energy-and-equilibrium.aux))
+(./chapter_03_energy-and-equilibrium.aux)
+(./chapter_04_EM-blackbody-radiation.aux))
 \openout1 = `lab-manual_pocc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
@@ -597,18 +598,15 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [3])
 \tf@toc=\write4
 \openout4 = `lab-manual_pocc.toc'.
 
- [3]
+ [4]
 \openout2 = `chapter_01_measurement-uncertainty-temperature.aux'.
 
 
-(./chapter_01_measurement-uncertainty-temperature.tex [4
-
-
-]
+(./chapter_01_measurement-uncertainty-temperature.tex
 Lab 1.
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
 9.
@@ -617,14 +615,16 @@ File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <12> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 29.
- [5{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.en
-c}]
+ [5
+
+
+{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 46.
  [6]
-<images/01_axis.pdf, id=167, 469.755pt x 144.54pt>
+<images/01_axis.pdf, id=215, 469.755pt x 144.54pt>
 File: images/01_axis.pdf Graphic file (type pdf)
 <use images/01_axis.pdf>
 Package pdftex.def Info: images/01_axis.pdf  used on input line 91.
@@ -637,7 +637,7 @@ File: images/01_axis.pdf Graphic file (type pdf)
 <use images/01_axis.pdf>
 Package pdftex.def Info: images/01_axis.pdf  used on input line 215.
 (pdftex.def)             Requested size: 469.75502pt x 144.53963pt.
-<images/01_global-avg-temperature-1860-present_may-2025-report_BEST.png, id=206
+<images/01_global-avg-temperature-1860-present_may-2025-report_BEST.png, id=253
 , 1801.73125pt x 1036.87375pt>
 File: images/01_global-avg-temperature-1860-present_may-2025-report_BEST.png Gr
 aphic file (type png)
@@ -657,7 +657,7 @@ Package pdftex.def Info: images/01_global-avg-temperature-1860-present_may-2025
 ]
 Lab 2.
 [13]
-<images/02_dessler_amarillo-vs-houston_fig2-1.jpg, id=225, 1031.855pt x 559.088
+<images/02_dessler_amarillo-vs-houston_fig2-1.jpg, id=272, 1031.855pt x 559.088
 75pt>
 File: images/02_dessler_amarillo-vs-houston_fig2-1.jpg Graphic file (type jpg)
 <use images/02_dessler_amarillo-vs-houston_fig2-1.jpg>
@@ -665,7 +665,7 @@ Package pdftex.def Info: images/02_dessler_amarillo-vs-houston_fig2-1.jpg  used
  on input line 52.
 (pdftex.def)             Requested size: 469.75502pt x 254.52226pt.
  [14 <./images/02_dessler_amarillo-vs-houston_fig2-1.jpg>]
-<images/02_detroit-houghton_temperatures.png, id=232, 875.1897pt x 297.0297pt>
+<images/02_detroit-houghton_temperatures.png, id=279, 875.1897pt x 297.0297pt>
 File: images/02_detroit-houghton_temperatures.png Graphic file (type png)
 <use images/02_detroit-houghton_temperatures.png>
 Package pdftex.def Info: images/02_detroit-houghton_temperatures.png  used on i
@@ -688,7 +688,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
 
 ]
-<images/03_red-light-speeding-slowing.pdf, id=260, 415.362pt x 104.72913pt>
+<images/03_red-light-speeding-slowing.pdf, id=308, 415.362pt x 104.72913pt>
 File: images/03_red-light-speeding-slowing.pdf Graphic file (type pdf)
 <use images/03_red-light-speeding-slowing.pdf>
 Package pdftex.def Info: images/03_red-light-speeding-slowing.pdf  used on inpu
@@ -705,47 +705,80 @@ Overfull \hbox (31.83623pt too wide) in paragraph at lines 189--222
  [] 
  []
 
-[23] (./lab-manual_pocc.aux
+) [23]
+\openout2 = `chapter_04_EM-blackbody-radiation.aux'.
+
+ (./chapter_04_EM-blackbody-radiation.tex [24
+
+
+
+
+]
+Lab 4.
+[25]
+<images/04_scale-wavelength-rbc.pdf, id=364, 433.62pt x 216.81pt>
+File: images/04_scale-wavelength-rbc.pdf Graphic file (type pdf)
+<use images/04_scale-wavelength-rbc.pdf>
+Package pdftex.def Info: images/04_scale-wavelength-rbc.pdf  used on input line
+ 43.
+(pdftex.def)             Requested size: 422.77664pt x 211.40047pt.
+<images/04_EM-spectrum-logscale.pdf, id=365, 433.62pt x 144.54pt>
+File: images/04_EM-spectrum-logscale.pdf Graphic file (type pdf)
+<use images/04_EM-spectrum-logscale.pdf>
+Package pdftex.def Info: images/04_EM-spectrum-logscale.pdf  used on input line
+ 55.
+(pdftex.def)             Requested size: 422.77664pt x 140.93362pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26 <./images/04_scale-wavelength-rbc.pdf>]
+Overfull \hbox (20.99477pt too wide) in paragraph at lines 81--99
+ [] 
+ []
+
+
+Underfull \vbox (badness 1137) has occurred while \output is active []
+
+ [27 <./images/04_EM-spectrum-logscale.pdf>] [28]) [29] (./lab-manual_pocc.aux
 (./chapter_01_measurement-uncertainty-temperature.aux)
 (./chapter_02_global-average-temperature.aux)
-(./chapter_03_energy-and-equilibrium.aux))
+(./chapter_03_energy-and-equilibrium.aux)
+(./chapter_04_EM-blackbody-radiation.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `lab-manual_pocc.out' has not changed.
-(rerunfilecheck)             Checksum: 94602FC23C02C3EEE9C383AFB25849FF;5262.
- ) )
-(\end occurred when \iftrue on line 131 was incomplete)
-(\end occurred when \ifx on line 131 was incomplete)
-(\end occurred when \ifnum on line 131 was incomplete) 
+(rerunfilecheck)             Checksum: ED42BE9E95C305A32479F811DF4F4736;6732.
+ ) 
 Here is how much of TeX's memory you used:
- 12056 strings out of 474116
- 186537 string characters out of 5743682
+ 12127 strings out of 474116
+ 189110 string characters out of 5743682
  1942187 words of memory out of 5000000
- 34133 multiletter control sequences out of 15000+600000
+ 34183 multiletter control sequences out of 15000+600000
  573298 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,16n,79p,1096b,653s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2024/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2024/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2024/texmf
--dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2024/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2024/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2024/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texlive/2024/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2024/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2024/texmf-dist/
-fonts/type1/public/cm-super/sfss1200.pfb>
-Output written on lab-manual_pocc.pdf (23 pages, 497373 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></u
+sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></us
+r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr
+/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/l
+ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/
+local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/
+local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/
+local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/l
+ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loca
+l/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local
+/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/loc
+al/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb>
+Output written on lab-manual_pocc.pdf (29 pages, 597590 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
- 324 compressed objects within 4 object streams
- 95 named destinations out of 1000 (max. 500000)
- 242 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 498 PDF objects out of 1000 (max. 8388607)
+ 414 compressed objects within 5 object streams
+ 109 named destinations out of 1000 (max. 500000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
 

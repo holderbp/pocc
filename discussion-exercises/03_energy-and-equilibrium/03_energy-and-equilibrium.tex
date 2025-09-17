@@ -1,0 +1,256 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{nopageno}
+\usepackage{SIunits}
+\usepackage{graphicx}
+\usepackage{enumerate}
+%\usepackage{mathabx}
+\usepackage{wasysym}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% For putting links in the document (both to sections and hyperlinks)
+\usepackage{hyperref}
+\usepackage{url}
+\hypersetup{
+    colorlinks=true,     % false: boxed links; true: colored links
+    linkcolor=red,       % color of internal links
+    citecolor=blue,      % color of links to bibliography
+    filecolor=blue,      % color of file links
+    urlcolor=blue        % color of external links
+}
+% below, use \url{http://www.nytimes.com} (they will be urlcolor)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% for the events page boxes
+
+% boxed regions
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+% fonts & spacing
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{calc}
+
+
+% small helper macros (adjust these)
+\newcommand{\boxheight}{4.2cm}   % height for each event box
+\newcommand{\boxfont}{\scriptsize} % change to \tiny or \footnotesize as desired
+\newcommand{\linelen}{0.95\linewidth} % timeline line length
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\rmd}{\ensuremath{{\rm d}}}
+%\newcommand{\vv}[1]{\ensuremath{\vec{#1}}}
+\newcommand{\vv}[1]{\ensuremath{\mathbf{#1}}}
+\newcommand{\ee}[1]{\ensuremath{\mathbf{e}_{#1}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+
+\begin{center}
+{\Large Energy and Equilibrium}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                                  Questions                                %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}
+
+\item {\bf Water Flow Diagram and Analysis:} Our basic law of energy is its {\em conservation}: although it might change its form, or transfer from one object to another, it is neither destroyed or created.  In the next question, we will try to sketch that idea by diagramming systems of objects: we will account for changes in the energies of individual object by the transfers of energy between those objects. 
+
+Water is similar to energy because it is also (approximately\footnote{It is not quite as strict a conservation law here.  If we boil water it becomes steam; if we freeze it it becomes ice. So to ``conserve'' liquid water we restrict ourselves to room temperature conditions and ignore evaporation.  More dramatically, even if we were to include all phases of water, the molecules of $\text{H}_2\text{O}$ can be lost, in the process of ``water-splitting''/electrolysis: $2\text{H}_2\text{O} \text{ (l)} \rightarrow \text{H}_2 \text{ (g) } + 2\text{O}_2 \text{ (g)}$.}) conserved.  Let's study the example of our ``leaky bucket'' experiment from lab this week. The water that starts in the pitcher is never ``lost,'' although, at any later moment, it might be in another component of the experimental setup (or on your table).
+	%
+	\begin{enumerate}[(a)]
+	\item Describe generally in words how water flows through the leaky bucket system.  At some random moment during the experiment, where is all of the water that started in the pitcher?  (You might want to start part (b) in parallel to answering this part, particularly the picture, to remind yourself).
+	\item Let's construct a ``Water Flow Diagram'' for the leaky bucket system.    Start with a blank page of paper.  
+		%
+		\begin{itemize}
+		\item At the top of the page, draw the experimental setup from the lab.  Label the objects, including: pitcher, ``leaky bucket'' (100~mL grad cyl w/ hole), catch-tray, pump, \ldots.
+		\item Just below the picture, title the system and state the brief interval of time we will analyze.  For this first diagram, take the interval of time to be: {\em after you increased the spigot flow rate but between equilibrium water levels (water level is rising)}.
+		\item In the bottom half of the page, draw a square box for each object in the system. Split each box into four quadrants and label them as:
+			%
+			\begin{itemize}
+			\item Top-left quadrant: ``Name'' of object
+			\item Top-right:  blank (used in Question 2, when we change water to energy)
+			\item Bottom-left: blank
+			\item Bottom-right: ``Total''
+			\end{itemize}
+			%
+		\item In each object box, give the name, and then indicate in the ``Total''  box whether the total water in that object is increasing/decreasing/neither during the chosen time interval (using up/down/horizontal arrows).
+		\item Now draw an arrow {\em between any two boxes} for which there is a {\em flow} of water from one to the other.  It is possible that water flows out of an object to multiple other objects, or that an object receives water from multiple objects.
+		\end{itemize}
+		%
+	\item Check to make sure that any object with a changing ``Total'' water inside, has arrows in/out of it that {\em explain} that change.  Discuss this briefly for each object.
+	\item Let's make part (c) at least qualitatively quantitative (ha).  Assign an arbitrary number to one of your arrows indicating a flow (perhaps the water leaving the pitcher spout, maybe ``100'').  Now move through your schematic system and account for that number throughout the rest of the system. Assign numbers to all flow arrows and to all ``Total'' boxes within objects. Make sure that any ``Total'' change number is exactly equal to the amount flowing into that object, minus the amount flowing out of that object.
+	\item Now construct a second ``water flow diagram'' but choose the time interval to be ``once the leaky bucket water level has come to equilibrium.''  Complete all of the steps in (b)--(d) (but you do not need to re-draw the picture of the experimental setup).
+	\end{enumerate}
+
+\item {\bf Energy Flow Diagrams:}  We will now construct ``energy flow diagrams'' to show energy flow between the objects in a system causing ``total'' energy changes for the individual objects.  The energy flow diagram will have the same basic structure as the water flow diagrams of the previous question --- i.e., picture of system, stated choice of brief time interval, schematic with boxes for objects and arrows for flows --- but with a few additions:
+	%
+	\begin{itemize} 
+	\item Within each object box, label the ``Name'' and ``Total'' as in Question (1). Label the other quadrants now as:
+		%
+		\begin{itemize} 
+		\item Top-right quadrant: ``External'' 
+		\item Bottom-left quadrant: ``Internal''
+		\end{itemize}
+		%
+	\item Within the External and Internal quadrants you will list {\em energy types} ({\bf see info sheet} on last page), paired with with up/down/horiz arrows indicating their change over the chosen time interval.  There could be multiple types of energy in each quadrant. 
+	\item As before, within the ``Total'' quadrant show the total energy change using a single up/down/horiz arrow.  This must again be consistent the net flows in/out of the object. But now it must also agree with the ``sum'' of the External and Internal changes.  
+	\item Next to each ``flow'' arrow, specify the {\em energy transfer mechanism} ({\bf see info sheet}).
+	\item As before, make things ``qualitatively quantitative'' with numbers. But now also include numbers next to each energy type listed within the External/Internal quadrants, and ensure that their sum matches the value in the Total quadrant. The Total change of energy in an object is equal to the net flow of energy in/out of the object, but it is also equal to (explained by) the sum of the changes in the internal/external energy types.
+	\end{itemize}
+	%
+Make an energy flow diagram for each of the following situations. We'll do part (a) together.
+	%
+	\begin{enumerate}
+	\item A person (with spiky shoes) drags a box across a frictionless surface (e.g., ice).  They pull with a constant force. Let the time interval be ``shortly after they start pulling.''
+	\item Same as previous, but now there is friction between the box and the floor.  The box moves with a constant speed\footnote{Because the box moves with a constant speed, the ``Work-Energy Theorem'' tells us that there must be two works that change the energy of the box: pulling of the person (positive work) and friction from the floor (negative work). These two works sum to make $W_\text{tot} =0$, so $\Delta K = W_\text{tot} = 0$.}.
+	\item Heating a pot of boiling water on the stove.  Do it twice: once for ``shortly after you put the pot on the stove'' and once for ``once the water is fully boiling''.
+	\item An ice cube melting on a picnic table in the sun.
+	\item A situation of your choice that includes an object in energy equilibrium.
+	\item A situation of your choice that includes an object not in energy equilibrium.
+	\end{enumerate}
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\item {\bf Leaky Bucket Theory and Data Analysis (BONUS for F2025):}  In the ``leaky bucket'' lab experiment this week, you should find that your final plot --- flow rate (mL/s) vs height (cm) --- does not seem to be a straight-line (linear) dependence.  Let's figure out why.  
+	%
+	\begin{itemize}
+	\item The basic definition of {\em equilibrium} is that the flow rate into the system is equal to the flow rate out of system.  If one of those two rates depends on a {\em parameter} in the system (something that describes the {\em state} of the system), then equilibrium for the system will imply an {\em equilbrium value} for that parameter.   As an equation, where $F$ means {\em flow rate}, and $x$ is the parameter:
+	%
+	\begin{equation*}
+	\text{``equilibrium''} \quad \rightarrow \quad F_\text{in} = F_\text{out}(x) \quad \rightarrow \quad \text{solution for equilibrium value: } x_\text{eq}
+	\end{equation*}
+	%
+where the parentheses on the right-hand side of the flow-rate equation means that the outflow rate {\em depends on} the parameter $x$.
+
+	\item In our ``leaky bucket'' lab, the graduated cylinder (GC) is the ``system.'' Equilibrium for the GC means that rate of inflowing water (from the pitcher) is equal to the rate of outflowing water (through the hole in the GC). The height of water in the GC (above the hole) is the ``parameter'' of the system on which one of these rates must depend.  Because the inflow rate depends only on how much you turn the spigot (and not on anything about the GC system), it must be that the outflow rate depends on the height parameter\footnote{It is possible that neither rate depends on a parameter, in which case there is no ``equilibrium value'' for a parameter because no equilibrium is achieved.  But that does not match observations for the leaky bucket experiment.  If the outflow rate of the GC did {\em not} depend on water height then, once the inflow rate from the pitcher exceeded the (fixed) outflow rate from the hole, the graduated cylinder would completely fill up and overflow. You would either see a graduated cylinder full to the hole (inflow less than outflow), or a graduated cylinder overflowing (inflow greater than outflow), but nothing in between.}. In summary of the experiment: you set an inflow rate by adjusting the spigot, you wait until you observe the height to come to its equilibrium level, which is achieved because the outflow rate through the hole matches the inflow rate. 
+	\end{itemize}
+	%
+By answering the following questions, we will derive the explicit dependence of outflow on height and be able to analyze the graphed lab data.
+	\begin{enumerate} 
+	\item  In the experiment, how do you {\em see} that the outflow rate from the GC is changing?  The hole is always the same size, so how does the system seem to adjust to let more water out when the inflow rate from the pitcher increases?
+	\item The change that you see in outflow can be accounted for in a (pretty) simple law of fluid dynamics, called {\em Bernoulli's Principle}:
+		%
+		\begin{equation*}
+		P_A + \rho g h_A + \frac{1}{2} \rho v_A^2 = P_B + \rho g h_B + \frac{1}{2} \rho v_B^2  \,.
+		\end{equation*}
+		%
+	This says that the sum of the pressure of a fluid, $P$, plus its graviational energy density\footnote{$\rho$ is the {\em mass density of the fluid} (\unit{1}{\gram/\milli\liter}  = \unit{1000}{\kilo\gram/\meter^3} for water); and $g = \unit{10}{\meter/\second^2}$ is the so-called {\em acceleration due to gravity} constant.}, $\rho g h$ , plus its kinetic energy density, $\frac{1}{2} \rho v^2$, is equal at any two points ($A$ and $B$) along a streamline of a fluid.  To apply this to our lab, where the ``fluid'' is the water in the GC, we pick our points $A$ and $B$ to be at the top of water column and where the water shoots out of the hole, respectively.  Because both of these points are exposed to the atmosphere, the fluid pressures are the same: $P_A = P_B = P_\text{atm}$.  Because, at equilibrium, the water level is not changing, what is $v_A$, at the top of the water column?  If we say that the height of the hole is our zero value, $h_B=0$, then $h_A = h$ is simply our ``height above the hole.''  \underline{Make all of these replacements in the above equation} and you should arrive at an equation that relates $v_B$, the speed of water shooting out of the hole, to $h_B$,  the height of the water level above the hole.  We can just call these $v$ and $h$ from now on.
+	\item Now we must relate the speed of the water shooting out the hole, $v$, to the flow rate, $F$.  Flow rate is measured in volume per second (e.g., mL/s or $\text{cm}^3$/s), while speed is measured in distance over time (e.g., cm/s).  From their units, what type of thing should you multiply speed by to get something in units of flow rate?  Write this down as an equation.
+	\item It turns out the equation you ``derived'' in part (d) is correct\footnote{You can derive it more carefuly by cosidering a small cylinder of water that shoots out the hole in a small time interval $\Delta t$.  The length of that cylinder will be $\Delta x = v \times \Delta t$ (a re-arrangement of ``speed is distance over time'').  And the volume of that cylinder will be $V = \Delta x \times A$, where $A$ is the circular area of the hole.  Therefore the volume rate of flow is: $F = V / \Delta t = \left( \Delta x A \right) / \Delta t = \frac{\Delta x}{\Delta t} A = v  A$.}.  Combine your two equations --- in parts (b) and (c) --- to get an expression that relates $F$ to $h$.
+	\item What should your final expression look like as a graph, in particular as a function of $F$ vs $h$ (with $F$ plotted on the vertical axis and $h$ on the horizontal). Does the data plotted in the lab experiment agree with that general behavior?
+	\item Although your final expression is not a {\em linear} relationship (the flow rate is  not just proportional to the height), you can make your data fit a linear relationship by adjusting either the $F$ data or the $h$ data (by, for example squaring one of them).   Try this out and draw a line of best fit through the data in this case.  What is the slope of your data fit and what should it be?  [The diameter of the hole in your GC was $\unit{11/64}{in} = \unit{0.4365}{\centi\meter}$, and the area of a circle is $\pi R^2$.]
+	\end{enumerate}
+
+\end{enumerate}
+
+
+%\newpage
+%\thispagestyle{empty}
+%\mbox{}
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                           Energy Info Sheet                                %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+{\bf \large Energy Information Sheet}
+\end{center}
+
+\noindent {\bf Energy Types} (associated to an object)
+	% 
+	\begin{itemize}
+	\item[] \underline{``External'' Energy} (mechanical energy associated object's motion or interaction with fields)
+		%
+		\begin{itemize}
+		\renewcommand{\labelitemii}{\textbullet}
+		\item {\bf Kinetic Energy:} Energy of motion, depending on mass and speed as $K = \frac{1}{2} m v^2$.
+		\item {\bf Potential Energy:} Stored energy. Two common examples: compressing a spring ($V_S = \frac{1}{2} k \Delta \ell^2$); and raising an object in the  gravitational field ($V_g = m g \Delta h$)
+		\end{itemize}
+		%
+	\item[] \underline{``Internal'' Energy} (energy within the defined boundaries of the object)
+		%
+		\begin{itemize}
+		\renewcommand{\labelitemii}{\textbullet}
+		\item {\bf Thermal kinetic energy:} kinetic energy of free atoms/molecules (in a fluid)
+		\item {\bf Thermal potential energy:}  potential energy of atomic/molecular vibrations (in solid)
+		\item {\bf Chemical energy:} stored energy in the bonds of molecules (sugar from food, ATP)
+		\item {\bf Internal Kinetic energy:} mechanical energy associated to motion of internal parts
+		\item {\bf Internal Potential energy:} mechanical energy in internal springs or rubber bands 
+		\end{itemize}
+	\end{itemize}
+
+\noindent {\bf Energy Transfer Mechanisms} (between objects)
+	%
+	\begin{itemize}
+	\item {\bf Work:} $W = F \times \Delta x$, mechanical energy transfer to/from an object by a force acting on it. Forces directed with motion yield positive work (kinetic energy gained\footnote{Change in kinetic energy due to work results from the ``Work Kinetic Energy Theorem'':  $W_\text{tot} = \Delta K$.} by object); forces directed opposite to motion yield negative work (kinetic energy lost by object).
+	\item {\bf Radiation}:  light/warmth, non-contact transfer.
+	\item {\bf Conduction:} energy transfer between two objects in contact with different temperatures (energy passes from the hot object to the cold object).
+	\item {\bf Convection/Mixing:} bulk motion of material within an object carries energy from one place to another (potentially followed by a radiative/conductive transfer)
+	\item {\bf Electrical Work:} Energy delivered by an electrical circuit.
+	\end{itemize}
+
+\newpage
+
+\noindent {\bf Energy Flow Diagrams (Basic Elements/Steps)}
+	% maybe use +/-/0 instead of arrows to avoid confusion with vectors and energy transfer arrows
+	%
+	\begin{itemize}
+	\item Use a whole sheet of paper.
+	\item At the top of the page, draw a {\bf picture of the system} under consideration.
+	\item Just below the picture, state the {\bf name of the system} and the brief {\bf time interval\footnote{These schematic ``flow'' diagrams describe the {\em transfer} of energy between objects of a system which causes {\em changes} in the total energy associated to each object. To make these abstract ideas more concrete --- like the analogy of water flow, where 2~mL poured into a cup over five seconds increases the water inside by 2~mL during that 5~s time interval  --- we specify a brief time interval over which the transfers and changes are taking place. Over that time interval, $\Delta t$, we can then imagine the associated energy changes  --- $\Delta E_\text{tot}$, $\Delta E_\text{ext}$, $\Delta E_\text{int}$ --- {\em of an object} and the energy transfers --- mechanical work done, radiation flux of photons, heat transfer in conduction --- {\em between objects}.} under consideration}.
+	\item In the bottom half of the page, draw {\bf schematic for the system}, including:
+		%
+		\begin{itemize}
+		\item a {\bf box for the energy changes of each object}
+		\item  {\bf arrows for energy transfers between objects}
+		\item {\bf numbers to indicate conservation} (within boxes and on arrows)
+		\end{itemize}
+		%
+	\item Details of the schematic:
+		%
+		\begin{itemize}
+		\item Each object box has four sections: the ``Name''; and the ``External,'' ``Internal,'' and ``Total'' energy changes.
+		\item ``External'' and ``Internal'' sections should have a list of the energy types associated to that object\footnote{We will only list the energy types that are {\em changing during our chosen time interval}.  A box being dragged across a frictionless surface has internal chemical energy in the bonds between its atoms, but these are not changing during the time interval so we do not include them. On the other hand, the person dragging the box is able to exert a force through their muscles (and thus transmit energy to the box through work) because their cells are constantly breaking the bonds of ATP molecules to release stored chemical energy.  So we {\em do} including internal chemical energy for the person, because it is decreasing during the chosen time interval. }
+	\item In the internal and external quadrants, state an energy type and indicate if it increases/decreases using an up/down arrow (or a horizontal bar for ``no change'').
+		\end{itemize}
+	UNFINISHED (above and below!)
+	\end{itemize}
+	
+
+\noindent {\bf Analogy to water and water flow}
+	%
+	\begin{itemize}
+	
+	\item Basic idea is that liquid water (in a room temperature situation, ignoring evaporation) is conserved.  It flows from one object to another, but the net flow into any object must equal the change in the amount of water that object contains.
+	
+	
+	\item {\bf Conduction} (transfer of energy from a hot object to a cold object in contact): When two wet objects are in contact (e.g., two sponges, one wet one mostly dry), water will flow from the wetter object to the dryer object (and never in reverse).  The flow stops when the wetness of the two objects is equal.  Wetness is the analog of temperature.
+	
+	\item {\bf Radiation} (transfer of energy from one object to another by light/photons):  Spray bottle sends small particles of water (if the analogy held, then the color of water and the amount per second out of the spray bottle would depend on the temperature (wetness) of source).
+
+	\end{itemize}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                                  References                                %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\noindent {\bf Data Sources}: 
+
+
+
+\end{document}
