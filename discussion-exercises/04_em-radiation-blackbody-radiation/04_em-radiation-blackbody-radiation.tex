@@ -1,0 +1,207 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{nopageno}
+\usepackage{SIunits}
+\usepackage{graphicx}
+\usepackage{enumerate}
+%\usepackage{mathabx}
+\usepackage{wasysym}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% For putting links in the document (both to sections and hyperlinks)
+\usepackage{hyperref}
+\usepackage{url}
+\hypersetup{
+    colorlinks=true,     % false: boxed links; true: colored links
+    linkcolor=red,       % color of internal links
+    citecolor=blue,      % color of links to bibliography
+    filecolor=blue,      % color of file links
+    urlcolor=blue        % color of external links
+}
+% below, use \url{http://www.nytimes.com} (they will be urlcolor)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% for the events page boxes
+
+% boxed regions
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+% fonts & spacing
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{calc}
+
+
+% small helper macros (adjust these)
+\newcommand{\boxheight}{4.2cm}   % height for each event box
+\newcommand{\boxfont}{\scriptsize} % change to \tiny or \footnotesize as desired
+\newcommand{\linelen}{0.95\linewidth} % timeline line length
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\rmd}{\ensuremath{{\rm d}}}
+%\newcommand{\vv}[1]{\ensuremath{\vec{#1}}}
+\newcommand{\vv}[1]{\ensuremath{\mathbf{#1}}}
+\newcommand{\ee}[1]{\ensuremath{\mathbf{e}_{#1}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+
+\begin{center}
+{\Large Electromagnetic Radiation and Blackbody Radiation}
+\end{center}
+
+\noindent Recall from lecture and lab, our basic equations concerning blackbody radiation:
+	%
+	\begin{equation*}
+	\lambda_\text{peak} = \frac{\unit{2900}{\micro\meter \cdot \kelvin}}{T} \quad \quad \quad \text{Wien's Law, wavelength of peak emission}
+	\end{equation*}
+	%
+	\begin{equation*}
+	F = \left( 5.7 \times 10^{-8} \, \frac{\text{J}/\text{s}}{\text{m}^2 \cdot \text{K}^4}\right) T^4 \quad \quad \quad \text{Stefan-Boltzmann Law (total flux)}
+	\end{equation*}
+	%
+	\begin{equation*}
+	F_\lambda = \frac{F}{1.5 \times \lambda_\text{peak}} \quad \quad \quad \text{peak value of ``spectral flux''}
+	\end{equation*}
+	%
+The ``flux'' is the power (energy per time) emitted per area (so, units of $\frac{\text{J}}{\text{s} \cdot \text{m}^2}$), and the ``spectral flux'' is what we graph versus wavelength. You can see\footnote{You've noticed that I'm not showing you the actual equation for spectral flux, but only an expression for its peak value.  We will do approximate drawings of the graphs $F_\lambda(\lambda)$ vs $\lambda$, using some rules of thumb, in Question 1.} that spectral flux is flux per wavelength, so that the area under the $F_\lambda$ versus $\lambda$ graph --- an approximate ``triangle'' of wavelength-range times spectral flux (base times height) --- gives us the total flux.\\[-6pt]
+
+\noindent Two other important equations, related to electromagnetic radiation (light) are:
+	%
+	\begin{equation*} 
+	\begin{split}
+	c &= \lambda \, f \quad \quad \quad  \text{relation between wavelength and frequency} \\
+	E &= h f = \frac{h c}{\lambda} \quad \quad \quad \text{energy per photon of light}
+	\end{split}
+	\end{equation*}
+	%
+where $c = \unit{3.0\times 10^{8}}{\meter/\second}$ is the speed of light (literally, the speed at which light travels in a vacuum\footnote{It takes light 8 minutes to reach us from the Sun.  How far away is the sun?  Use speed equals distance over time!}). The second equation is a result from quantum mechanics which says that light is ``quantized'' into little packets of energy, called ``photons''.  The energy carried by each photon depends only on its wavelength/color\footnote{I will often use ``color'' as a shorthand way of saying the wavelength or frequency of light. But our actual perception of color is quite different.  Our eyes have three types of ``cone'' cells, each of which ``collect and count'' photons in their own little segment of the visible light wavelength spectrum: red, green, and blue.  The brain then ``adds'' the contributions of the RGB buckets together to give us what we perceive as a color.}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                                  Questions                                %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}
+
+\item {\bf Graphing Blackbody Radiation} You have been provided ``log-log'' graph paper, that allows us the plot quantities over a wide range of values, for each axis (recall that we fit the entire history of the universe on one plot, in the ``Timescales'' discussion in the first week). \\[-6pt]
+
+Using the ``rules of thumb'' given in Table \ref{table:rules-for-BB-curves}, plot approximate blackbody curves (spectral flux  vs.\ wavelength) for these three objects\footnote{Recall that the phrase ``$y$ vs.\ $x$'' means that $y$ is on the vertical axis and $x$ is on the horizontal axis.}, all on the same plot:
+	%
+	\begin{enumerate}[(i)]
+	\item The Sun,
+	\item A Human,
+	\item A vat of liquid nitrogen.
+	\end{enumerate}
+	%
+For each object, look up the temperature in Celsius and convert to Kelvin ($T_{(\text{K})} = T_{(\degree \text{C})} + 273$). Before drawing anything, find the values of peak spectral flux and peak wavelength for each (see ``rules'' below) and make a little table for yourself.  These values should guide how you set the range on the graph paper (what is the minimum and maximum value on each axis).   
+	%
+	\begin{table}[t]
+	\centering
+	\fbox{%
+	\parbox{0.9\linewidth}{%
+	\begin{itemize}
+	\item Knowing the temperature of a particular blackbody object, you can calculate the peak wavelength using Wien's Law and the peak spectral flux value using the ``$F / (1.5 \lambda)$'' equation.  Plot these two values as one point on the $F_\lambda$ vs.\ $\lambda$ axes.
+	\item Estimate the two wavelengths (one smaller than $\lambda_\text{peak}$, one larger) where the spectral flux graph falls to 10\% of its maximum value (dividing by a factor of 10 means one large division down on a logarithmic axis) using the following rule of thumb: $\lambda_\text{small} = \lambda_\text{peak}/2$ and $\lambda_\text{large} = 3 \, \lambda_\text{peak}$.  Plot two more points on the $F_\lambda$ vs.\ $\lambda$ axes.
+	\item Make a smooth triangular ``hat''  connecting these three points,  the BB curve peak.
+	\item On log-log graph paper, the tail of the BB spectral flux graph toward large wavelengths is exactly a straight line (with a slope of negative 4). You can draw the tail toward small wavelengths also approximately straight, but it actually drops off more quickly (so you could sketch a light straight line, but then draw something under it (that passes through $\lambda_\text{peak}$ and $\lambda_\text{small}$.
+	\end{itemize}
+	}%
+	}
+	\caption{ \label{table:rules-for-BB-curves}
+	Rules of thumb for drawing blackbody curves
+	}
+	\end{table}
+	%
+	% and one more question
+	%
+Then describe in words, what you see on the graph.  How do the three objects compare in power output (if you had equal-sized \unit{1}{\meter^2} sun, person and $\text{N}_2(\ell)$ ball)? In what wavelength bands (visible, infrared, UV, \ldots) are the objects emitting most of their power?
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item {\bf Solar incident radiation and what is received by Earth's surface:}  We are interested (Question 3, below) in understanding how the incoming solar radiation determines the temperature of the Earth.  The first step in this process\footnote{The steps we follow here, and in Question 3, are described in Chapter 4 (pp.\ 53--57 of our textbook by Dessler.  See also Figures 4.1--4.4.} is to determine how much energy the Sun provides to the Earth, i.e., how much average power ``lands'' per meter squared on the surface of the Earth?  
+	%
+	\begin{enumerate}
+	\item {\bf Energy leaving the Sun:} The flux of a blackbody is the energy (e.g., in Joules) released per second from every square meter of its surface area.  Write down an equation for the total power released by a blackbody. Remembering that the surface of a sphere is given by $A_\text{sphere} = 4 \pi R^2$, and using the astronomical information in Table \ref{table:astronomical-info}, calculate the total power (in watts $\text{W} = \frac{\text{J}}{\text{s}}$) relased by the Sun.
+	\item {\bf Energy reaching the Earth from the sun:}   The total energy leaving the Sun in one second is distrbuted over  large spherical shell in all directions.  Only part of that sphere intersects the Earth.  Find the energy per meter that is caught by the Earth, using your answer to (a) divided by the total area of a sphere of radius $d_{\odot \rightarrow \oplus}$.   This is called the {\em solar constant}.
+	\item {\bf Spreading the sun's light over the earth's surface:}  The total solar energy hitting the Earth is spread over its whole spherical surface.  Show that your answer to (c) should simply be divided by 4 to achieve this.
+	\item {\bf Albedo:}  The ``albedo'' --- denoted by the Greek letter alpha, $\alpha$ --- of an object is its reflectivity, i.e., the fraction of incident energy reflected by the object.  Explain why we should multiply the Sun's flux $F$ by a factor of $(1 - \alpha)$, to find the energy absorbed by the Earth.  What do you think causes the albedo of the Earth?
+	\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item {\bf Calculating the temperature of the Earth (Part I)}  We found in the previous question that the ``solar constant'' of the Sun (the solar power received at the position of the Earth in space) is $S = \unit{1360}{\watt/\meter^2}$, but that the averaging over the Earths surface reduces this by a factor of 4, and then the albedo reduces it by a factor of $1 - \alpha$.  Therefore the average solar flux at Earth's surface is:
+	%
+	\begin{equation*}
+	F_\text{Sun on Earth surf} = \frac{S \left(1 - \alpha \right)}{4}	\quad \quad S = \unit{1360}{\joule / \second / \meter^2}
+	\end{equation*}
+	%
+We will use this to determine the Earth's temperature by assuming a situation of equilibrium.
+	%
+	\begin{enumerate}
+	\item Draw an energy flow diagram for the Earth and the Sun. Ensure that the Earth object is in equilibrium. Is the Sun in equilibrium?
+	\item Write down an equality for the equilibrium that you indicated in your flow diagram, expressed in terms of the power per area (flux):
+		%
+		\begin{equation*}
+		F_\text{Sun on Earth surf} = F_\text{Earth}
+		\end{equation*}
+		%
+	The flux of the Sun is given above. what is $F_\text{Earth}$ (Hint: you have an equation for it in the introductory equations).  Using that equation, and an approximate value of $\alpha = 0.3$, solve for the Earth's temperature.
+	\item Is this answer correct?  Why or why not?  What else might we need to account for?
+	\end{enumerate}
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%      astronomical info           %%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%
+	\begin{table}[t]
+	\centering
+	\renewcommand{\arraystretch}{1.5}
+	\begin{tabular}{|l|l|c|}
+	\hline
+	{\bf Object} & {\bf Characteristic}  & {\bf Size (m)} \\
+	\hline
+	\hline
+	Sun \hspace{2cm} & Radius, $R_\odot$ \ \hspace{2cm} & $7.0 \times 10^8$ \\
+	\hline
+	Earth & Distance to Sun, $d_{\odot \rightarrow \oplus}$ & $1.5 \times 10^{11}$ \\
+	\hline
+	Earth & Radius, $R_\oplus$ & $6.4 \times 10^6$\\
+	\hline
+	\end{tabular}
+	%
+	\caption{ \label{table:astronomical-info}
+	Astronomical distances and sizes
+	}
+	\end{table}
+
+
+
+\end{enumerate}
+
+
+%\newpage
+%\thispagestyle{empty}
+%\mbox{}
+
+%\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                           Extras                           %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%                                  References                                %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\noindent {\bf Data Sources}: 
+
+
+
+\end{document}

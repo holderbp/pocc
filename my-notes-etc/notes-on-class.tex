@@ -1,0 +1,131 @@
+\documentclass[12pt]{article}
+
+%%% My math packages
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[amssymb]{SIunits}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,     % false: boxed links; true: colored links
+    linkcolor=red,       % color of internal links
+    citecolor=blue,      % color of links to bibliography
+    filecolor=blue,      % color of file links
+    urlcolor=blue        % color of external links
+}
+
+% get  spans of citations [23-25] instead of [23, 24, 25]
+\usepackage{cite}
+
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+\captionsetup[subfigure]{font=footnotesize, labelfont=bf} % affects (a), (b) captions
+
+\usepackage{enumerate}
+
+
+
+% regular figure captions
+\captionsetup[wrapfigure]{labelfont={bf,footnotesize}, textfont=small}
+\captionsetup[figure]{labelfont={bf,footnotesize}, textfont=small}
+
+
+% more generous float placement
+\setcounter{topnumber}{2}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}
+\renewcommand{\topfraction}{.85}
+\renewcommand{\bottomfraction}{.8}
+\renewcommand{\textfraction}{.05}
+\renewcommand{\floatpagefraction}{.75}
+% reduce gaps if you like
+\setlength{\textfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+
+
+%\usepackage[normalem]{ulem}
+
+%%% ChatGPT boilerplate for 1in margins, no header-footer, 12pt sans-serif font, with title page
+% Margins
+%\usepackage[margin=1in]{geometry}
+\usepackage[margin=1in]{geometry}
+
+% Double spacing
+\usepackage{setspace}
+%\doublespacing
+
+
+% San-serif font
+\renewcommand{\familydefault}{\sfdefault}
+
+% and for math formulae
+\usepackage{sansmathfonts}
+\usepackage[T1]{fontenc}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%  Title page  %%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+    \centering
+    \vspace*{\fill}
+    {\large Notes on Physics of Climate Change (F2025)\par}
+    \vspace{0.5cm}
+    {\large Benjamin Holder\par}
+    \vspace{1in}
+    {\large GVSU Physics\par}
+    Last update: September 18, 2025
+    \vspace*{\fill}
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Overview}
+
+
+I'm going to use this document to take notes about how the class is going, what my developing philosophy of the course is, and anything else I need to know for re-working the course in future semesters.  I will also use this document (and its updates from W2026) to prepare a ``Guide for Instructors'' for the course, which passes on my own philosophy of the course, ideas behind the assignments, and suggestions on emphasis.  The content of the course will take care of some of this, but I think other instructors will need a readable guide to make sense of things.\\
+
+{\bf General Notes:}
+%
+\begin{itemize}
+
+\item  In F2025 and W2026 I am teaching Lecure, Lab, Discussion in sequence.  I have grown to like this order because it allows me to introduce things in Lecture, re-introduce and develop in Lab, and sometimes use Discussion to do analysis/summary/reflection on things seen in Lab.  If we desire to make this course like Astronomy (PHY 105), however, then I really should make sure that the lab can float within the week, that nothing depends on the lab and the lab doesn't depend on anything. (Although PHY 105, at least in recent semesters does always have a lecture day before all of the labs... the labs could otherwise appear anywhere in the week).
+
+\end{itemize}
+
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Lecture}  
+
+\noindent{\bf Reading Quizzes Assigned (F2025)}
+\begin{itemize}
+\item[] {\bf Week 2:} Discuss temperatures in Houston vs. Amarillo, TX, including the meaning and use of temperature anomaly.
+\item[] {\bf Week 3:} What does it mean for an object/system to be in equilibrium? How does it relate to “energy in” and “energy out”? What is true about the internal state of the system when in equilibrium?
+\item[] {\bf Week 4:} How does the Sun’s energy get to the Earth? How would you describe that energy/energy-transfer, and what are other examples (not the Sun, but same type of energy transfer)?
+\end{itemize}
+
+\vspace{0.5cm}
+
+
+\noindent{\bf Notes on Lectures}
+
+\begin{itemize}
+
+\item While I had thought initially that I would write a ``book'' to complement the actual book, writing up detailed notes for everything I would want to say to them in lecture, I have found that (1) I haven't had time to do such a thing, and (2) the class slides together with the lab and discussion materials is ample space to give these details.  So essentially I'm working with a: ``my class slides are my notes'' approach, and then usually repeating key details/equations at the start of the lab and discussion write-ups.
+
+\item The book by Dessler is a very good additional resource to the things I want to say.  I give the students a very short reading assignment every week, approximately half a chapter (5--10 pages), and then I give them a reading quiz (single question at the beginning of the Lecture class.   I annouce the reading by the previous Friday, and I often say that I will restrict the quiz to a certain (few page) section of the reading.  I've also said that they can use notes that they take during the quiz.  Basically I want them to get in the mode of reading a bit before the cl
+
+\end{itemize}
+	
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Lab}  
+
+	
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion}  
+
+\end{document}
