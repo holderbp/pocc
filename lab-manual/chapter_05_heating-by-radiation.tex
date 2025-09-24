@@ -1,21 +1,23 @@
 
-
-\chapter{Feel sun on your face (no one else can do it for you): Heating by radiation}
+\ChapterWithSubtitle{Heating by Radiation}{Feel sun on your face. No one else can feel it for you.}
+%\chapter{Heating by Radiation}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Equipment List}
 
 \begin{multicols}{2}   % change 2 -> 3 for three columns
 \begin{equipment}
+\item Calorimetry kit: Calorimetry can, aluminum cylinder, 250~mL beaker
+\item Heating by Radiation kit: aluminum block, styrofoam holder with kickstand, no-slip pad, large mass
 \item Digital thermometer
-\item Calorimetry cup
-\item aluminum cylinder
-\item 250~mL beaker (2)
-\item styrofoam cup (for getting ice)
-\item aluminum block
-\item styrofoam holder for block with legs
-\item no-slip pad
-\item small lab jack
+\item 100~mL graduated cylinder
+\item styrofoam cups (for getting ice)
+\item incandescent desk lamp
+\item graph paper
+\item cooler of ice (for room)
+\item scale (for room)
+\item active camera (optional)
+\item computer (optional)
 \end{equipment}
 \end{multicols}
 
@@ -24,73 +26,115 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction and Definitions}
 
-Stuff here including reminder to look at lab 2 blackbody,
+To estimate the energy balance of the Earth, and thus estimate its expected equilibrium temperature, we must first know the input energy to Earth system: the radiation flux (in $\frac{\text{J}/\text{s}}{\text{m}^2}$) from the Sun.  Recall our ``leaky bucket'' experiment: When you increased the flow of water coming out of the pitcher, you observed a rising water level in the graduated cylinder (the leaky bucket), until the point at which the rate of water spraying out of the hole match the incoming rate of flow from the pitcher.  When that equilibrium was achived, there was an equilibrium height of the water above the hole\footnote{That height determines the rate of flow out of hole, essentially by conservation of mechanical energy: a larger column of water in gravity, leads to a larger kinetic energy of the exiting water.}.  We can make an exact analogy to the energy balance of the earth: the Sun pours energy into the Earth through photons of light; the Earth sprays energy back into space because it has a temperature (specifying its internal energy) and therefore radiates as a a blackbody; and when these two rates of flux are equal, the internal energy of the Earth stops changing, leading to an ``equilibrium level'' of temperature.  Today we would like to directly measure the amount of energy being ``poured in'' by the Sun.  (Or, if the Sun does not cooperate, an incandescent light bulb).
 
-rays of light coming from sun to earth, angle of 1 m-squared piece
+\subsection{First Law of Thermodynamics, Heating, and Calorimetry}
 
-calorimetry definitions and explanation
+In our introduction to the topic of energy --- beginning with the work by a force, generalized to include all types energy transfer mechanisms, and all types of internal and external energy types --- we emphasized the basic physical law: energy is conserved\footnote{Although it may change its form, and transfer from one object to another, the total amount of energy never changes.}.  Most generally, energy conservation is stated as a law within thermodynamics (the physical topic of heat, temperature, and chemistry) and is given the grand title {\bf The First Law of Thermodynamics} (FLTD):
+	%
+	\begin{equation*}
+	\Delta E_\text{tot}  = Q + W \,.
+	\end{equation*}
+	%
+This equation pertains to any single object/system that you choose and summarizes the rules we used in the construction of energy flow diagrams: a change in the total energy of an object, $\Delta E_\text{tot}$, must be exactly accounted for by the energy input to or output from that object (on the right hand side), in the form of {\bf heat flow}, $Q$, or mechanical {\bf work}, $W$ (these flows, $Q$ and $W$, are positive when energy is coming into the system, and negative when energy is going out).
 
-\vspace{4cm}
+Today we will consider a special case of the above equation, where our system consists of two objects brought together at different temperatures.  There will be no work done on the system and we will consider the combined system of two objects to be ``closed'' so that there is no heat flow in or out of the system.  In that case, we have:
+	%
+	\begin{equation*}
+	\Delta E_\text{tot}  = Q + W  \quad \rightarrow \quad \Delta E_\text{tot} = 0 + 0 \quad \rightarrow \quad \Delta E_1 + \Delta E_2 = 0\, ,
+	\end{equation*}
+	%
+which says that the sum of the internal energy changes in the two sub-objects must equal zero.  Another way to view the combined system is to break it into two objects.  In that case we would have two equations (one equation for each ``object'' box, in an energy flow diagram):
+	%
+	\begin{equation*}
+	\begin{array}{c}
+	\Delta E_{\text{tot}, 1}  = Q_1 + W_1 \\
+	\Delta E_{\text{tot}, 2}  = Q_2 + W_2 \\
+	\end{array} 
+	\quad \rightarrow \quad
+	\begin{array}{c}
+	\Delta E_{\text{tot}, 1}  = Q_1 + 0 \\
+	\Delta E_{\text{tot}, 2}  = Q_2 + 0 \\
+	\end{array} 
+	\quad \rightarrow \quad
+	Q_1 + Q_2 = 0
+	\end{equation*}
+	%
+where the last equation follows from the previous two, plus our prior equation for the combined system (that the sum of the two energy changes is zero).  When drawing an energy flow diagram, there is a single transfer arrow between the two objects, which we could label with $|Q|$.  In the equation for one object, that transfer is accounted as a positive or negative value depending on whether the flow is into or out of  that object.
 
+\underline{Consider an example system}: cold milk poured into a mug of hot coffee. We will ignore the energy loss out of the system as a whole during the time of mixing, so the above equation holds.  Sketch an energy flow diagram for these two objects during the time they are mixing (not yet at equilibrium). Then write down three FLTD equations, like those above: one for the combined system and one each for the objects in your diagram.  Instead of ``1'' and ``2'' labels, use ``C'' and ``M''.  
+
+We express heat flow into an object through an equation that demonstrates its change in the internal energy of that object (essentially The {\bf heat capacity} of an object, $C$,  is the constant of proportionality between the heat transfer to/from the object and its internal energy change, as measured by a change in temperature:
+	%
+	\begin{equation*}
+	Q = C \, \Delta T \, .
+	\end{equation*}
+	%
+This is not a very useful equation because the value of $C$ depends on all of the details of the object.  A more fundamental quantity is the {\bf specific heat capacity} (often called simply the ``specific heat'') {\em of a material}, denoted by the lower-case $c$.  This is the heat capacity per mass of an object, so we can write:
+	%
+	\begin{equation*}
+	Q = c \, m \, \Delta T \, .
+	\end{equation*}
+	%
+One of the materials with the largest specific heat capacity is water, with $c_W = \unit{4.2}{ \joule/g/K}$.  This means that it takes \unit{4.2}{\joule} of energy to raise one gram of water one degree Kelvin (which, since $\Delta T_K = \Delta T_{\degree C}$, is the same amount to raise by one degree Celsius). The term ``capacity'' is used because, once you have added energy to raise the temperature, that energy is essentially stored in the water and can be transferred somewhere else.  Other materials that have a lower specific heat capacity, like aluminum,  experience a higher temperature increase for the same, $\unit{4.2}{\joule}$, energy input --- or, put another way, raising the temperature of aluminum by one degree stores less energy than raising the same amount of water by one degree (aluminum's capacity to store energy is less than water).
+
+\underline{Write down} a $Q_1 + Q_2 = 0$ equation for the ``milk plus coffee'' example above. Again, use ``C'' and ``M'' as labels. Then use the above equations containing specific heat to express heat as a temperature difference.  The final temperature within the two $\Delta T$'s will be the same, $T_f$, but the initial temperatures will be different.  Re-write your equation to show this in variables.  Then discuss briefly why the two terms will add to zero, knowing what you do about the initial and final temperatures of the coffee and milk.
+
+\newpage
 
 \section{Experiments and Activities}
 
 
 \subsection{Specific heat of aluminum}
 
+Before looking at the heating of an aluminum block under the radiation of the sun (or incandescent bulb), we will first determine the specific heat capacity of the material itself.  Our experiment will be a very simple calorimetry example: prepare a small aluminum cylinder at a known temperature (letting it equilibrate with ice water) and then drop it into a vat of water while monitoring the temperature of the water.  The drop in water temperature at that instant can be associated to a heat transfer from water to aluminum, which causes an internal energy decrease/increase, respectively. Knowing the specific heat water (and the masses of both the water and aluminum), we can determine the specific heat of aluminum.  
 
-energy flow diagram for system at two different time intervals, prior to aluminum cylinder, and at the time of the drop (when aluminum is heating up)
---> decide how hot you want the water to begin with
-
-
-take apart calorimetry device and explain each piece
-
-experiment to watch the temperature decrease in and out of the cup? How well does calorimetry device do?
-
-measure mass of aluminum cylinder
-
-put aluminum cylinder in beaker with ice water, check  to see it is at zero C
-
-get hot (~50C water from faucet) put a few cm in calorimetry cup (you will measure its volume afterward)
-
-Put calorimetry cup in device
-
-start the stopwatch
-
-monitor temperature for at least 5 min with readings every 30 s. Lift thermometer above base, use the stirrer
-
-drop in Al cylinder using scissors as tongs, record time of drop
-
-continue to monitor temperature in 30s intervals for at least 5 min.
-
-make plot of temperature vs time.  For times before and after drop, make best-fit linear lines
-
-at the time of the drop measure the vertical distance (temp) between these lines, that is deltaT for the water.
-
-also record the lower temperature (lower temperature straight line) of the water at that time, that is Tf
-
-pour out water from calorimetry cup into 100mL grad cylinder (count number of full 100mL volumes and add to final amount under 100mL)
-
-calculate specific heat of aluminum, using 4.2 J/g/K for water
+\noindent {\bf Procedure}: Using your own paper to write down observations, keep a data table, and make calculations from equations, take the following basic steps.
+	%
+	\begin{itemize}
+	\item Open up the ``calorimetry can'' and inspect it.  What are the components of it, and what is the purpose of each?  (The small cup inside is what you will fill with water).
+	\item Get some ice from the cooler. Create an ice-water bath in your 250~mL beaker and place the aluminum cylinder inside.
+	\item Get hot water from the faucet ($~50\degree$C) and fill the small calorimetry cup with about \unit{2}{\centi\meter} (we will measure this amount after the experiment is over).
+	\item Place the cup inside the calorimetry can and observe the temperature through the hole in the cork.
+	\item Start the stopwatch and take temperature measurements for at least 5 minutes, at approximately 30 second intervals\footnote{If you would like, you could use the go-pro-like camera to record the stopwatch and thermometer --- probably best to record with the ``time-lapse'' feature --- and then get (temperature, time) data points by watching the video afterwards.  Think carefully about how to do this ahead of time.}. 
+	\item While you are still getting temperature measurements on the water,  use a second thermometer, to check that the ice water and cylinder mixture is at the right temperature.
+	\item Remove the cylinder using the tongs and drop it into the warm water.
+	\item Record the time that the cylinder was added.
+	\item Continue to measure the temperature for another 5 minutes, at 30 second intervals.
+	\item Create a table of your temperature vs.\ time data.  It is probably easiest to simply record the time on the stopwatch (4m50s) and then later you can convert  that (in an additional column) to the number of seconds (290~s).
+	\item Make a graph of temperature vs.\ time on graph paper.  Be sure to choose axes such that your data covers most of the page.
+	\item Using a ruler, make two best-fit straight lines, before and after the time at which the cylinder was inserted.
+	\item At the time the cylinder was inserted, estimate the vertical distance (temperature distance) between these two lines.  Also record the ``final'' temperature (the bottom of this range.
+	\item Carefully remove the aluminum cylinder from the calorimetry can (without losing any water). Then, using the digital scale, measure and record the mass of the aluminum cylinder. 
+	\item Take your small calorimetry cup to the sink, along with your 100~mL graduated cylinder.  Pour the water into the graduated cylinder to record the volume of water in the can.  (Think ahead of time about how to do this if your water turns out to be more than 100~mL in volume!)
+	\item Draw an energy flow diagram that will captures the heat flow and energy changes during the time immediately after placing the aluminum cylinder in hot water, but before it equilibrated.  
+	\item Then write down equations to arrive at a $Q_1 + Q_2 = 0$ equation, like you did in the introduction. Use this final equation to calculate the specific heat capacity of aluminum. Recall that the specific heat capacity of water is $c_W = \unit{4.2}{\joule/\gram/\;\degree C}$.
+	\end{itemize}
 
 
 \subsection{ Heating aluminum block by radiation}
 
-Put lamp 5 cm away from block and with its rays at right angle to block
-
-put bit of aluminum foil in the hole to make entry of thermometer stiff
-
-place in styrofoam holder and stick thermometer through
-
-start stopwatch before turning on lamp
-
-record temperature every minute or so, for about 20 minutes 
-
-(you can record with the go-pro, but the post-analysis, watching the video to get temps, might be just as annoying as taking the data; 
-alternatively, you could have a phone take photos every 30s, 
-or use time-lapse (of both stopwatch and thermometer), or set a lower resolution video)
-
-calculate the expected energy flux from the aluminum at that temperature... how might that affect results?
+Now that we know the specific heat of aluminum, we can measure precisely how incoming radiation flux causes a temperature increase.  In this experiment the heating of an aluminum block will be accomplished by light (from the sun or your incandescent desk lamp) rather than conduction from a hot to a cold object. But the input heat for aluminum can be interpreted with exactly the same equation:
+	%
+	\begin{equation*}
+	Q_\text{Al} = m_\text{Al} \, c_\text{Al} \, \Delta T
+	\end{equation*}
+	%
+\noindent {\bf Procedure:} Using your own paper to write down observations, keep a data table, and make calculations from equations, take the following basic steps.
+	%
+	\begin{itemize}
+	\item Place your aluminum block into the insulating styrofoam.  If there is no hole through the styrofoam for the thermometer, measure the position of the hole in the block and carefully figure out where to pierce the styrofoam such that the thermometer will hit the hole.
+	\item Prop up the styrofoam at an angle, using its kickstand, the no-slip pad and a large (e.g., 1~kg) mass.
+	\item Arrange the desklamp so that it is pointing at the block and quite close ($\sim \unit{5}{\centi\meter}$). Record the distance.
+	\item Start your stopwatch.
+	\item Then turn on your desk lamp.
+	\item Record (time, Temperature) values in a table, every 30 seconds (or even every minute should be fine) for about 20 minutes.
+	\item Make a graph of your data, Temperature vs.\ time.
+	\item Using a ruler, draw a straight line of best fit.  Then, using two widely-separated {\em points on the line} calculate the slope of that line.
+	\item This slope, $\frac{\Delta T}{\Delta t}$, can be converted into a $\frac{\Delta E}{\Delta t}$ using the specific heat capacity of Aluminum.  Write this out as an equation and then calculate the value.
+	\item The power increase you just calcuated can be translated into a flux, by dividing by the area of the aluminum block. Write out an equation for this, and then calculate a value.
+	\item Using your distance to the lamp, you can now try to estimate the power of the light bulb.  This is the same procedure we did in class to go from the Sun's power, to its flux at the position of the Earth's orbit, but backwards.
+	\end{itemize}
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.26)  16 SEP 2025 11:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.26)  23 SEP 2025 21:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1066,7 +1066,7 @@ Overfull \hbox (37.55695pt too wide) in paragraph at lines 289--289
  []
 
 
-Overfull \hbox (26.99304pt too wide) detected at line 289
+Overfull \hbox (31.7431pt too wide) detected at line 289
 \OML/cmssm/m/it/12 F \OT1/cmsmf/m/n/12 = [] \OML/cmssm/m/it/12 T[]
  []
 
@@ -1107,10 +1107,10 @@ ut' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23412 strings out of 474116
- 447014 string characters out of 5743682
+ 23388 strings out of 474116
+ 446822 string characters out of 5743682
  1938187 words of memory out of 5000000
- 45232 multiletter control sequences out of 15000+600000
+ 45208 multiletter control sequences out of 15000+600000
  574675 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,123p,417b,501s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1134,7 +1134,7 @@ fb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1728.pfb
 sr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/public/sansmathfonts/ssmsam10.pfb>
 Output written on lecture04_em-radiation-blackbody-radiation.pdf (9 pages, 7552
-86 bytes).
+93 bytes).
 PDF statistics:
  172 PDF objects out of 1000 (max. 8388607)
  111 compressed objects within 2 object streams

@@ -86,6 +86,41 @@
 % (I will use regular itemize without bullets for all definitions)
 \newcommand{\defterm}[1]{\textbf{#1}}
 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                               Getting subtitles on Chapters (from chatGPT)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{titlesec}
+
+% Global toggle to show/hide subtitles
+\newif\ifshowsubtitles
+\showsubtitlestrue     % show subtitles by default
+% \showsubtitlesfalse  % uncomment to hide them
+
+% store the current chapter subtitle here
+\newcommand{\labsubtitletext}{}            % initially empty
+\newcommand{\labsubtitle}[1]{\gdef\labsubtitletext{#1}}
+
+% chapter formatting (uses \chaptername and \thechapter)
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}              % format for whole block
+  {\chaptername\ \thechapter}              % label (e.g., "Lab 1")
+  {20pt}                                   % separation
+  {\Huge}                                  % before-code (applied to title)
+  [\vspace{1ex}\normalfont\large\itshape%
+     \ifshowsubtitles\labsubtitletext\fi]  % after-code: print subtitle if enabled
+
+% convenience command that sets subtitle, issues \chapter, then clears subtitle
+\newcommand{\ChapterWithSubtitle}[2]{%
+  \labsubtitle{#2}% store subtitle
+  \chapter{#1}% typeset chapter (subtitle printed by titlesec after-code)
+  \gdef\labsubtitletext{}% clear stored subtitle
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -136,6 +171,13 @@
 
 
 \include{chapter_04_EM-blackbody-radiation}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                        Week 05  ---   Heating by Radiation, Specific Heat
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\include{chapter_05_heating-by-radiation}
 
 
 \end{document}
