@@ -1,0 +1,41 @@
+
+physics toolbox / light meter (diff on iphone and android)
+
+measures in "lux" (should look up what that is
+
+Calibration measures (looking through from small to small side, long path)
+
+make sure phone is vertical with camera pointing down tank
+
+no light source (ambient room light)
+4160 (9.5cm from near edge)
+3660 (8cm)
+3300 (7cm)
+2800 (6cm)
+2560 (5cm)
+2600 (4cm)
+2572 (3cm)
+2460 (2cm)
+2900 (1cm)
+
+
+lights off in room, light on  (white, 5800K)
+
+100%   6688
+95%    6688
+85%    6688
+75%    6688
+60     6688
+50     6688
+40     6688
+25     6688
+20     6440
+18     6140
+16     5750
+14     5200
+12     4300
+10     3500
+8      3025
+6      2100
+4      1450
+2      900

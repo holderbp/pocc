@@ -1,0 +1,224 @@
+
+\ChapterWithSubtitle{Greenhouse Effect: Light Absorption and Transmission}{There's a light.}
+%\chapter{Heating by Radiation}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Equipment List}
+
+\begin{multicols}{2}   % change 2 -> 3 for three columns
+\begin{equipment}
+\item Coin
+\item Ruler
+\item Stopwatch
+\item Aluminum block 
+\item Foam holder without kickstand
+\item Scissors 
+\item Aquarium (no lego top necessary)
+\item Food coloring set
+\item Ulanzi (multiple-color-mode LED light)
+\item Desk lamp
+\item Blue Tape
+\item Digital Thermometer
+\item Apron
+\item 250 mL beaker
+\item Stirring stick 
+\item computer
+\item Bin of 14cm x 20cm mylar sheets (shared)
+\item Graph paper (shared)
+\item Gloves  (shared)
+\end{equipment}
+\end{multicols}
+
+
+
+
+%\noindent {\bf Note:} Today
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction and Definitions}
+
+Today we will start investigating how light interacts with matter.   In the past few weeks, we calculated the Earth's equilibrium temperature\footnote{See our discussions for the past two weeks, and Chapter 4 in our textbook by Dessler.} by assuming that it was in energy equilibrium: the incoming average flux from the Sun was exactly balanced by the outgoing (blackbody, infrared) flux of the Earth.  When we assumed an Earth without an atmosphere, we found that the equilibrium temperature would be about -18$\degree$C (0$\degree$F). But when we assumed that there was atmosphere --- i.e., a greenhouse gas atmosphere: blocking all of the Earth's infrared light, and then re-radiating as an infrared blackbody, according to its own temperature --- then we found that the equilibrium temperature of Earth's surface rises to about +30$\degree$C (86$\degree$F). Although both of these estimates are incorrect --- the actual average surface temperature\footnote{In the coming weeks we will account for energy flow through water vapor and derive a more accurate estimate.} of the Earth surface is about 15$\degree$C --- the presence of the atmosphere and its so-called {\em greenhouse effect} are incredibly important to make a livable environment.
+
+To understand the greenhouse effect, we must understand why and how the Earth's radiation is captured by the atmosphere. More specifically: why and how is infrared light is captured by molecules of greenhouse gases [e.g., water vapor ($\text{H}_2\text{O}$), carbon dioxide ($\text{CO}_2$), and methane ($\text{CH}_4$)].  To answer the ``why'' we will investigate, in lecture and discussion, the mechanism by which light (electromagnetic waves) interacts with the electric dipole (overall neutral, but a slight separation of positive and negative charges) of these molecules.  Interaction with infrared light in particular (as opposed to visible, ultraviolet, and other bands) causes vibration and rotation of these molecules\footnote{Intractions with shorter wavelength light generally causes things like excitation of the electrons in the atoms, or ionization (removal) of these electrons.}. Essentially, greenhouse gases are those that have an electric dipole which can be ``grabbed'' by the light to induce such effects, while non-greenhouse gases [like oxygen ($\text{O}_2$) and nitrogen ($\text{N}_2$)] have no electric dipole, and thus no interaction with the light.  Although this explanation comes from the classical theory of electricity and magnetism, the actual interaction is {\em quantum}.  Light is a quanta (photon, packet) of electromagnetic radiation with fixed energy (determined by its wavelength: $E = h c / \lambda$). A photon's encounter with a molecule is a random process in which capture occurs some {\em probability}.  Absorption causes the ``excitation'' of the molecule, meaning that it will begin to oscillate or rotate. And then the excited molecule lose its excitation by randomly emitting a photon with the same energy (at a random time and in a random direction).\\[-6pt]
+
+\noindent \underline{Make a sketch for yourself below of this interaction process} in a sequence of three pictures side by side.  In the first (left), draw the light photon as a little ``bump'' with sinusoidal waves inside it, approaching (show a velocity vector) a molecule (e.g., $\text{H}_2\text{O}$ is a big O ball connected by rods to two small H balls).  In the second (center) the photon has been absorbed but now the molecule rotates or vibrates. And in the third (right), the molecule has shot the photon off in a random direction.
+
+\vspace{4cm}
+
+\subsection{The ``how'' of greenhouse gas absorption: exponential losses}
+
+As described above, the ``why'' of light-matter interaction (the best theory physicists have to explain the process) involves a random capture of photons by molecules, which then redirects the light into a random direction.  The net effect of many such encounters --- which we might call the ``how'' of greenhouse gas absorption --- is that a beam of light (a beam of many photons) passing into a region with greenhouse gas will lose its forward progress rapidly.  Although no energy is lost --- each photon is absorbed into rotational/vibrational energy, then re-emitted in a random direction --- the number of photons that pass completely through region will drop off exponentially (literally!) with distance.  Let's perform a small experiment to see why that is the case.\\[-6pt]
+
+\noindent \underline{Using the table on the next page} perform a coin-flip experiment.  Each row in the table corresponds to an incoming photon of light and each column at right corresponds to a layer of the atmosphere.  The first column should be the label of the photon; label them 1--20. The second column wil be the ``zeroth layer.'' Put a mark in the box for each row/photon of that second column to indicate that the photon is traveling to the right prior to any encounters. The third column is the first layer.  In this column, you will put a mark only if the photon has passed through the layer without being captured.  You will determine the fate of each photon by flipping a coin: each photon has a 50\% chance of passage.  So, flip the coin 20 times to determine whether each row in the first later gets a mark or not.  In the next column (the second layer) you will only flip a coin for the photons/rows that made it through the first layer.  And so on, until you have no more photons.  \\[-6pt]
+
+\noindent \underline{Now make a data table} below with two columns, $(N_\text{layers}, N_\text{photons})$, showing the number of photons surviving after each layer.  On the computer, open a google sheets document\footnote{At: \texttt{sheets.google.com}} enter this data (with column headers for the titles).  Make a plot of the data using the following steps:
+	%
+	\begin{itemize}
+	\item Highlight the two rows of data (including header names).
+	\item Select {\em Insert}/{\em Chart}. And a chart will appear showing your data.
+	\item On the {\em Chart Editor} at right, change the {\em Chart type} to {\em Scatter}.
+	\item Make a second chart following the same previous three steps. Click on the vertical axis labels to bring up the {\em Vertical Axis} menu. Check the {\em Log Scale} check box.
+	\item Now click one of the data points to bring up the {\em Data Series} menu. Check the {\em Trendline} box. Change the {\em Type} to {\em Exponential}. Then choose {\em Use Equation} under {\em Label}.
+	\end{itemize}
+	%
+Now upload your data to the common spreadsheet for the class.  Once everyone has done so, make one more graph using the average data for the class.  Comment on what the graphs look like (in particular, how does an exponential functionlook when plotted in a ``log-linear'' fashion).  Speculate what these results mean for the Earth's light passing into the atmosphere.
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                          Table for photon absorption coin-flip experiment
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\begin{tabular}{|p{1.3cm}|p{1.3cm}|p{1.3cm}|p{1.3cm}|p{1.3cm}|p{1.3cm}|p{1.3cm}|p{1.3cm}|p{1.3cm}|p{1.3cm}|}
+\hline
+\textbf{Label} &
+\textbf{Layer0} &
+\textbf{Layer1} &
+\textbf{2} &
+\textbf{3} &
+\textbf{4} &
+\textbf{5} &
+\textbf{6} &
+\textbf{7} &
+\textbf{8} \\
+\hline
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+&  &   &   &    &  &   &   &    &    \\[0.8em]
+\hline
+\end{tabular}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+\section{Experiments and Activities}
+
+
+\subsection{Cooling by radiation, with blankets}
+
+We will revisit our aluminum block from last time, but this time we will heat it up and watch it lose its heat to the environment.  You will heat the aluminum block to approximately 50$\degree$C (as you see below, we will just put it in warm water this time), then place it in its little foam holder and measure the temperature over time to estimate again $\frac{\Delta T}{\Delta t}$.  \\[-6pt]
+
+\noindent Draw an energy flow diagram for the block below (after it has been heated and left in its holder) and say a few words about how you think the cooling takes place, i.e., what are the mechanisms of energy flow out of the block that cause its decrease in internal energy.
+
+\vspace{6cm}
+
+\noindent In our experiment, however, each pair of experimenters will use a different number of mylar (``shiny space blanket'') sheets to cover the block during the time it is cooling.  Draw a second energy flow diagram for this situation (it will be essentially the same as our diagram for the Earth with atmosphere, from Discussion last week, but not in equilibrium), and discuss the differences.
+
+\vspace{6cm}
+
+\noindent {\bf Procedure:} Using your own paper to write down observations, keep a data table, and make calculations from equations --- take the following basic steps.
+	%
+	\begin{itemize}
+	\item Prepare a space blanket for your aluminum block by taping together one or more mylar sheets.  We will discuss with the whole class to get a variety of layer numbers among all pairs.
+	\item Using tape, attach the blanket to end of the foam holder that has a hole in it. Poke your thermometer through the blanket such that it goes through the hole (and can enter the aluminum block).
+	\item At the sink, run the hot water into the provided trays until they are filled with approximately 50$\degree$C water.  Drop your aluminum block inside and let it warm up for a minute.
+	\item Bring your aluminum block back to its holder, cover it with its blanket. Insert the thermometer and make sure it goes into the aluminum block before taping down the blanket to the other sides.
+	\item Start your stopwatch and start taking (time, temperature) data.  You might use a google sheets spreadsheet with columns for [minutes, seconds, t (s), T (C)]; that makes it easy to write down the time on the stopwatch (mm:ss) and later calculate how many seconds have elapsed for the ``t (s)'' column.
+	\item Take data for 10--15 minutes, about once a minute.
+	\item Remove and disassemble your space blanket, returning the individual mylar sheets to their bin.
+	\item Make plot of your data using graph paper.  
+	\item Using a ruler, draw a best-fit line through the data.  Calculate the slope using two widely-separated points {\em on your line of best fit}.
+	\item Upload your value of $\frac{\Delta T}{\Delta t}$ to the common class google sheet, indicating the number of mylar layers used in your blanket.
+	\item Later, if time permits, use google sheets to plot all of the data from the class: $\frac{\Delta T}{\Delta t}$ vs.\ $N_\text{layers}$.  
+	\end{itemize}
+	%
+
+
+\newpage
+
+
+\subsection{Transmission of light through water (with colors)}
+
+Here we will determine how food coloring changes the amount of light that passes through water in the little aquariums provided.  You have a light source (``Ulanzi'') that can provide white light at different temperatures and intensities, as well as single-color light at diffferent intensities.  We will pass that light through the water and observe how much gets through (when clear, and with multiple drops of food coloring added), using an app on your phone called the ``Physics Toolbox Sensor Suite''.    Go to your app store now and try to install that app for at least two phones at your table.  Once you have the app, you will use the ``Light Meter'' mode. Let me know if you have trouble getting it.
+
+\subsubsection{Calibration}
+
+\noindent To start we will determine the sensitivity range of our phone cameras.  Fill your aquarium almost full of water. Turn off the classroom lights and give yourself some personal light with the desk lamp but not pointed toward your aquarium (you want the phone app to observe only the light from the Ulanzi). Put the light source pointing into the water at the center of one of the long sides.  You might place the light on its flat side, and elevate it above the table (on masking tape or other platform) to make sure it is flush to the side of the aquarium, while still being fully below the water. Then place your phone on the other side.    Adjust the app so that camera being used is pointing through the aquarium.   Turn on the light with the switch on the side.  Change modes by holding down (long-pressing) the button-wheel on back. Change between Intensity and Temperature/Color by short-pressing the button. Turn the wheel to change the values.  As you take data you can hold your phone in your hand to make it flush with the side as well. Move the phone around until you get the maximum Lux reading and record that.   \\[-6pt]
+
+\noindent {\bf Procedure:}
+	%
+	\begin{itemize}
+	\item Set your light on white light (long press to get to that mode), but at a lower temperature than then Sun (so maybe around $\sim$3000 K). Turn up the Intensity.  (Single pressing the button takes you between Intensity and Temperature.)
+	\item Place your phone in position so that it is observing through the aquarium and is giving a ``Lux'' value.
+	\item In a new Google Sheets document, make a table with (Intensity, Lux) columns.  Intensity is the thing shown on the light itself (between 0 and 100) and Lux is what is read off the phone app.
+	\item Turn down the Intensity of the light and record a new value.  Repeat this procedure multiple times so that you can see how your phone observes different intensities.  What you should find is that there is a large range of intensities where the phone camera is saturated\footnote{On my old iPhone, saturation happens between 20\% and 100\% for the ``5800 K'' light, but on newer phones, the camera is saturated all the way down to 2\% Intensity!  With a ``3000 K'' light you should be able to find an unsaturated range below 20\%.}, meaning that you always get the same, maximum, Lux value.  Take a few data points in this range and then turn down the Intensity such that the Lux values start changing, and take more (5--6) data points in that range.
+	\item Using Google Sheets, make a graph of this data (Lux vs.\ Intensity).  You should find that there is a saturation value for your phone, but that for Lux values well below that, it is approximately linear.  
+	\item Write down the max ``Lux'' setting that you can trust (this should be a value below the curve starts to saturate.
+	\end{itemize}
+
+
+\subsubsection{Experiment} %
+Now we will consider how the light passing through the aquarium changes as you put more and more drops of food coloring into it.  At your table of four, each pair should choose a different color (use Blue or Red).  You can test your dropper skills in a 250~mL beaker of water before dropping into the aquarium.  There are aprons and gloves available to protect you from food coloring drops.  Set the initial light brightness (as measured by your phone) so that it is not oversaturated, as you determined in the ``Calibration'' section.\\[-6pt]
+
+\noindent Before performing the experiment, read through the procedure.  Give a brief statement below about what you expect to see in the final graphs.\\[-6pt]
+
+\vspace{4cm}
+
+\noindent {\bf Procedure:}
+	%
+	\begin{itemize}
+	\item Make a new table of ``Lux'' vs.\ number of food coloring drops.  You can do this in Google Sheets  You will have three ``Lux'' columns for the intensity observed in White, Red, and Blue light.  
+	\item Before putting any drops in, choose an intensity for your light (checking to see that the measured Lux is ok) and then record the ``zero drops'' value of Lux for Red, Blue, and White light.
+	\item Add one drop of food coloring to your aquarium and stir until homogeneous (practice the dropping in the beaker).  
+	\item Record the Lux values for the three colors of light again.
+	\item Repeat for 2, 3, 4, 6, and 8 drops.
+	\item Use google sheets to make a graph of your three data sets (all on one graph: highlight the $N_\text{drops}$ column together with the three Lux columns).
+	\item Change your vertical axis scale to logarithmic, and get the exponential fit line and its equation displayed.
+	\end{itemize}
+	%
+\noindent Returning to your predictions before the procedure, comment on whether you were correct.  What did you see, and what does it mean?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
