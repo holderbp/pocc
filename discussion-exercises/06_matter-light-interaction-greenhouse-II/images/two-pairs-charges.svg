@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="5.7456551in"
+   height="3.5642326in"
+   viewBox="0 0 145.93964 90.531508"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="two-pairs-charges.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.79942728"
+     inkscape:cx="338.36724"
+     inkscape:cy="277.6988"
+     inkscape:window-width="1504"
+     inkscape:window-height="903"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-3.1145657,-28.614273)">
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.161;stroke-dasharray:0.965999, 0.322001"
+       d="M 3.1145657,74.972044 H 149.05421"
+       id="path1" />
+    <g
+       id="g2"
+       transform="translate(1.3348139,1.1123449)">
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:1.05833;stroke-dasharray:none"
+         id="path2"
+         cx="33.704052"
+         cy="33.481583"
+         r="5.45049" />
+      <text
+         xml:space="preserve"
+         style="font-size:12.7px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="29.99575"
+         y="37.955727"
+         id="text2"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           style="font-size:12.7px;stroke-width:0.264583"
+           x="29.99575"
+           y="37.955727">+</tspan></text>
+    </g>
+    <g
+       id="g3"
+       transform="translate(17.797518,-10.014894)">
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:1.05833;stroke-dasharray:none"
+         id="path2-8"
+         cx="100.43591"
+         cy="44.608822"
+         r="5.45049" />
+      <text
+         xml:space="preserve"
+         style="font-size:12.7px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="98.318214"
+         y="47.898544"
+         id="text2-6"><tspan
+           sodipodi:role="line"
+           id="tspan2-5"
+           style="font-size:12.7px;stroke-width:0.264583"
+           x="98.318214"
+           y="47.898544">-</tspan></text>
+    </g>
+    <g
+       id="g3-3"
+       transform="translate(-65.397047,68.557301)">
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:1.05833;stroke-dasharray:none"
+         id="path2-8-9"
+         cx="100.43591"
+         cy="44.608822"
+         r="5.45049" />
+      <text
+         xml:space="preserve"
+         style="font-size:12.7px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="98.318214"
+         y="47.898544"
+         id="text2-6-9"><tspan
+           sodipodi:role="line"
+           id="tspan2-5-9"
+           style="font-size:12.7px;stroke-width:0.264583"
+           x="98.318214"
+           y="47.898544">-</tspan></text>
+    </g>
+    <g
+       id="g3-36"
+       transform="translate(17.797518,68.557301)">
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:1.05833;stroke-dasharray:none"
+         id="path2-8-5"
+         cx="100.43591"
+         cy="44.608822"
+         r="5.45049" />
+      <text
+         xml:space="preserve"
+         style="font-size:12.7px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="98.318214"
+         y="47.898544"
+         id="text2-6-5"><tspan
+           sodipodi:role="line"
+           id="tspan2-5-8"
+           style="font-size:12.7px;stroke-width:0.264583"
+           x="98.318214"
+           y="47.898544">-</tspan></text>
+    </g>
+  </g>
+</svg>
