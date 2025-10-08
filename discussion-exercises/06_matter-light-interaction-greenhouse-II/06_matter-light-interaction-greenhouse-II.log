@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.26)  3 OCT 2025 12:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.26)  7 OCT 2025 09:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1019,13 +1019,17 @@ Package pdftex.def Info: images/two-charges-for-fields.pdf  used on input line
 135.
 (pdftex.def)             Requested size: 350.33727pt x 239.13866pt.
 [3 <./images/two-charges-for-fields.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 144--146
+
+ []
+
 <images/two-pairs-charges_crop.pdf, id=53, 416.55624pt x 257.96375pt>
 File: images/two-pairs-charges_crop.pdf Graphic file (type pdf)
 <use images/two-pairs-charges_crop.pdf>
 Package pdftex.def Info: images/two-pairs-charges_crop.pdf  used on input line 
 147.
 (pdftex.def)             Requested size: 350.33727pt x 216.96753pt.
- [4 <./images/two-pairs-charges_crop.pdf>]
+[4 <./images/two-pairs-charges_crop.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 153--155
 
  []
@@ -1063,7 +1067,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
-[7] [8] (./06_matter-light-interaction-greenhouse-II.aux)
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+
+ []
+
+[8] [9]
+<images/atomic-orbitals-periodic-table_hyperphys_noalpha.png, id=131, 144.2991p
+t x 74.4381pt>
+File: images/atomic-orbitals-periodic-table_hyperphys_noalpha.png Graphic file 
+(type png)
+<use images/atomic-orbitals-periodic-table_hyperphys_noalpha.png>
+Package pdftex.def Info: images/atomic-orbitals-periodic-table_hyperphys_noalph
+a.png  used on input line 242.
+(pdftex.def)             Requested size: 190.18636pt x 98.10977pt.
+<images/lewis-dot-periodic-table_hyperphys.png, id=132, 504.88625pt x 300.12125
+pt>
+File: images/lewis-dot-periodic-table_hyperphys.png Graphic file (type png)
+<use images/lewis-dot-periodic-table_hyperphys.png>
+Package pdftex.def Info: images/lewis-dot-periodic-table_hyperphys.png  used on
+ input line 244.
+(pdftex.def)             Requested size: 275.26772pt x 163.62924pt.
+ [10 <./images/atomic-orbitals-periodic-table_hyperphys_noalpha.png> <./images/
+lewis-dot-periodic-table_hyperphys.png>] [11]
+(./06_matter-light-interaction-greenhouse-II.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1073,31 +1100,34 @@ t' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28330 strings out of 474116
- 554236 string characters out of 5743682
+ 28375 strings out of 474116
+ 555470 string characters out of 5743682
  1970187 words of memory out of 5000000
- 50083 multiletter control sequences out of 15000+600000
- 604404 words of font info for 142 fonts, out of 8000000 for 9000
+ 50103 multiletter control sequences out of 15000+600000
+ 605027 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,107p,1038b,818s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,15n,107p,1207b,818s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.
 pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texl
-ive/2024/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2024/te
-xmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2024/texmf-dist/fo
-nts/type1/public/lm/lmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p
-ublic/lm/lmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lm
-r6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr
-/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texli
-ve/2024/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2024/te
-xmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2024/texmf-dist/f
-onts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1
-/public/lm/lmsy8.pfb>
-Output written on 06_matter-light-interaction-greenhouse-II.pdf (8 pages, 30224
-1 bytes).
+local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texl
+ive/2024/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2024/t
+exmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2024/texmf-dist/f
+onts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/
+public/lm/lmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l
+mr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb></
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/te
+xlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2024/t
+exmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2024/texmf-dist/fo
+nts/type1/public/lm/lmri10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/
+public/lm/lmri12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/
+lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy6.pfb>
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local
+/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on 06_matter-light-interaction-greenhouse-II.pdf (11 pages, 4309
+54 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 133 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 22566 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 238 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 22576 words of extra memory for PDF output out of 24883 (max. 10000000)
 
