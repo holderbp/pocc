@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.26)  1 OCT 2025 12:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.26)  8 OCT 2025 17:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -201,6 +201,9 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
@@ -419,7 +422,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip61
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 78.
+Package hyperref Info: Option `colorlinks' set `true' on input line 85.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/sfmath/sfmath.sty
 Package: sfmath 2007/08/27 v0.8 sans serif maths
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -510,27 +513,28 @@ LaTeX Warning: Unused global option(s):
 (./chapter_02_global-average-temperature.aux)
 (./chapter_03_energy-and-equilibrium.aux)
 (./chapter_04_EM-blackbody-radiation.aux)
-(./chapter_05_heating-by-radiation.aux) (./chapter_06_greenhouse.aux))
+(./chapter_05_heating-by-radiation.aux) (./chapter_06_greenhouse.aux)
+(./chapter_07_boiling-water.aux))
 \openout1 = `lab-manual_pocc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
 
 Option `amssymb' provided! 
  Command \square redefined by SIunits package!
@@ -591,7 +595,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 127.
+Package hyperref Info: Link coloring ON on input line 134.
 (./lab-manual_pocc.out) (./lab-manual_pocc.out)
 \@outlinefile=\write3
 \openout3 = `lab-manual_pocc.out'.
@@ -603,7 +607,7 @@ Package hyperref Info: Link coloring ON on input line 127.
 
 ]
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <14.4> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 145.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 152.
 
  (./lab-manual_pocc.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
@@ -644,7 +648,7 @@ LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10> not available
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-<images/01_axis.pdf, id=273, 469.755pt x 144.54pt>
+<images/01_axis.pdf, id=298, 469.755pt x 144.54pt>
 File: images/01_axis.pdf Graphic file (type pdf)
 <use images/01_axis.pdf>
 Package pdftex.def Info: images/01_axis.pdf  used on input line 93.
@@ -658,7 +662,7 @@ File: images/01_axis.pdf Graphic file (type pdf)
 <use images/01_axis.pdf>
 Package pdftex.def Info: images/01_axis.pdf  used on input line 217.
 (pdftex.def)             Requested size: 469.75502pt x 144.53963pt.
-<images/01_global-avg-temperature-1860-present_may-2025-report_BEST.png, id=308
+<images/01_global-avg-temperature-1860-present_may-2025-report_BEST.png, id=334
 , 1801.73125pt x 1036.87375pt>
 File: images/01_global-avg-temperature-1860-present_may-2025-report_BEST.png Gr
 aphic file (type png)
@@ -679,7 +683,7 @@ Package pdftex.def Info: images/01_global-avg-temperature-1860-present_may-2025
 ]
 Lab 2.
 [13]
-<images/02_dessler_amarillo-vs-houston_fig2-1_no-caption.jpg, id=327, 1031.855p
+<images/02_dessler_amarillo-vs-houston_fig2-1_no-caption.jpg, id=352, 1031.855p
 t x 415.5525pt>
 File: images/02_dessler_amarillo-vs-houston_fig2-1_no-caption.jpg Graphic file 
 (type jpg)
@@ -688,7 +692,7 @@ Package pdftex.def Info: images/02_dessler_amarillo-vs-houston_fig2-1_no-captio
 n.jpg  used on input line 56.
 (pdftex.def)             Requested size: 469.75502pt x 189.17813pt.
  [14 <./images/02_dessler_amarillo-vs-houston_fig2-1_no-caption.jpg>]
-<images/02_detroit-houghton_temperatures.png, id=334, 875.1897pt x 297.0297pt>
+<images/02_detroit-houghton_temperatures.png, id=359, 875.1897pt x 297.0297pt>
 File: images/02_detroit-houghton_temperatures.png Graphic file (type png)
 <use images/02_detroit-houghton_temperatures.png>
 Package pdftex.def Info: images/02_detroit-houghton_temperatures.png  used on i
@@ -712,7 +716,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
 
 ]
-<images/03_red-light-speeding-slowing.pdf, id=360, 415.362pt x 104.72913pt>
+<images/03_red-light-speeding-slowing.pdf, id=385, 415.362pt x 104.72913pt>
 File: images/03_red-light-speeding-slowing.pdf Graphic file (type pdf)
 <use images/03_red-light-speeding-slowing.pdf>
 Package pdftex.def Info: images/03_red-light-speeding-slowing.pdf  used on inpu
@@ -734,13 +738,13 @@ Overfull \hbox (31.83623pt too wide) in paragraph at lines 192--225
 ]
 Lab 4.
 [25]
-<images/04_scale-wavelength-rbc.pdf, id=416, 433.62pt x 216.81pt>
+<images/04_scale-wavelength-rbc.pdf, id=442, 433.62pt x 216.81pt>
 File: images/04_scale-wavelength-rbc.pdf Graphic file (type pdf)
 <use images/04_scale-wavelength-rbc.pdf>
 Package pdftex.def Info: images/04_scale-wavelength-rbc.pdf  used on input line
  41.
 (pdftex.def)             Requested size: 422.77664pt x 211.40047pt.
-<images/04_EM-spectrum-logscale.pdf, id=417, 433.62pt x 144.54pt>
+<images/04_EM-spectrum-logscale.pdf, id=443, 433.62pt x 144.54pt>
 File: images/04_EM-spectrum-logscale.pdf Graphic file (type pdf)
 <use images/04_EM-spectrum-logscale.pdf>
 Package pdftex.def Info: images/04_EM-spectrum-logscale.pdf  used on input line
@@ -818,34 +822,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
-) [44] (./lab-manual_pocc.aux
+) [44]
+\openout2 = `chapter_07_boiling-water.aux'.
+
+ (./chapter_07_boiling-water.tex
+Lab 7.
+[45
+
+
+
+
+] [46] [47]
+<images/07_phase-diagram-of-water-simplified_wikimedia-Cmglee_edited.png, id=57
+9, 449.88075pt x 332.08064pt>
+File: images/07_phase-diagram-of-water-simplified_wikimedia-Cmglee_edited.png G
+raphic file (type png)
+<use images/07_phase-diagram-of-water-simplified_wikimedia-Cmglee_edited.png>
+Package pdftex.def Info: images/07_phase-diagram-of-water-simplified_wikimedia-
+Cmglee_edited.png  used on input line 72.
+(pdftex.def)             Requested size: 650.43001pt x 480.12128pt.
+
+Overfull \hbox (27.99107pt too wide) in paragraph at lines 72--73
+[][] 
+ []
+
+[48 <./images/07_phase-diagram-of-water-simplified_wikimedia-Cmglee_edited.png>
+] [49] [50]) [51] (./lab-manual_pocc.aux
 (./chapter_01_measurement-uncertainty-temperature.aux)
 (./chapter_02_global-average-temperature.aux)
 (./chapter_03_energy-and-equilibrium.aux)
 (./chapter_04_EM-blackbody-radiation.aux)
-(./chapter_05_heating-by-radiation.aux) (./chapter_06_greenhouse.aux))
+(./chapter_05_heating-by-radiation.aux) (./chapter_06_greenhouse.aux)
+(./chapter_07_boiling-water.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-Package rerunfilecheck Warning: File `lab-manual_pocc.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `lab-manual_pocc.out':
-(rerunfilecheck)             Before: 9DA7ABC48AEAF5D535F4970E2A2F0104;9683
-(rerunfilecheck)             After:  9053EA416C50516ECADE1F36D7A0A3CA;9746.
+Package rerunfilecheck Info: File `lab-manual_pocc.out' has not changed.
+(rerunfilecheck)             Checksum: EE708E06D5923172BBE771177E6F907A;10680.
  ) 
 Here is how much of TeX's memory you used:
- 12520 strings out of 474116
- 195830 string characters out of 5743682
+ 12603 strings out of 474116
+ 198345 string characters out of 5743682
  1968187 words of memory out of 5000000
- 34530 multiletter control sequences out of 15000+600000
+ 34584 multiletter control sequences out of 15000+600000
  573825 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,79p,1886b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,17n,79p,1886b,704s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
@@ -859,15 +882,16 @@ local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/l
 ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
 cal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/loca
-l/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
-texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/t
-exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/te
-xlive/2024/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/
-texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb>
-Output written on lab-manual_pocc.pdf (44 pages, 618202 bytes).
+l/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/
+texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
+xlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
+live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texl
+ive/2024/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/te
+xlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb>
+Output written on lab-manual_pocc.pdf (51 pages, 806122 bytes).
 PDF statistics:
- 646 PDF objects out of 1000 (max. 8388607)
- 542 compressed objects within 6 object streams
- 136 named destinations out of 1000 (max. 500000)
- 404 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 722 PDF objects out of 1000 (max. 8388607)
+ 606 compressed objects within 7 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 449 words of extra memory for PDF output out of 10000 (max. 10000000)
 

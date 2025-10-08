@@ -46,3 +46,8 @@
 \contentsline {subsection}{\numberline {6.2.2}Transmission of light through water (with colors)}{43}{subsection.6.2.2}%
 \contentsline {subsubsection}{Calibration}{43}{subsection.6.2.2}%
 \contentsline {subsubsection}{Experiment}{44}{subsection.6.2.2}%
+\contentsline {chapter}{\numberline {7}Evaporation of water by boiling}{45}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introduction and Definitions}{45}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Phase transitions and water}{46}{subsection.7.1.1}%
+\contentsline {section}{\numberline {7.2}Experiments and Analysis}{49}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Boiling water!}{49}{subsection.7.2.1}%

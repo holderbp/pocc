@@ -30,6 +30,13 @@
  \renewcommand{\chaptername}{Lab}
 %\addto\captionsenglish{\renewcommand{\chaptername}{Lab}}
 
+% to give reliabile vspace segments allowing answers from students at a particular place in the text
+\usepackage{needspace}
+\newcommand{\answerspace}[1][4cm]{%
+  \par\Needspace{#1}%
+  \noindent\begin{minipage}[t][#1][t]{\linewidth}\end{minipage}\par
+}
+
 \usepackage{multicol}
 
 % adjust the itemized lists
@@ -185,6 +192,13 @@
 
 
 \include{chapter_06_greenhouse}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                        Week 07  ---   Phase Transitions I (boiling water)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\include{chapter_07_boiling-water}
 
 
 \end{document}
