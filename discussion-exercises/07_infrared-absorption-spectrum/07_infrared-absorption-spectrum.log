@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.26)  10 OCT 2025 11:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.26)  11 OCT 2025 15:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1006,7 +1006,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 134.
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
@@ -1017,7 +1017,7 @@ File: images/peixoto_fig6-5_structure-water-ozone-co2.png Graphic file (type pn
 g)
 <use images/peixoto_fig6-5_structure-water-ozone-co2.png>
 Package pdftex.def Info: images/peixoto_fig6-5_structure-water-ozone-co2.png  u
-sed on input line 180.
+sed on input line 178.
 (pdftex.def)             Requested size: 450.43253pt x 627.42433pt.
 
 
@@ -1030,7 +1030,7 @@ on.png Graphic file (type png)
 <use images/atmospheric-absorption-transmission_rohde_mathez-textbook_no-captio
 n.png>
 Package pdftex.def Info: images/atmospheric-absorption-transmission_rohde_mathe
-z-textbook_no-caption.png  used on input line 194.
+z-textbook_no-caption.png  used on input line 192.
 (pdftex.def)             Requested size: 500.484pt x 484.81227pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1040,7 +1040,7 @@ pt>
 File: images/salby_fig8-5_outgoing-infrared-lines.png Graphic file (type png)
 <use images/salby_fig8-5_outgoing-infrared-lines.png>
 Package pdftex.def Info: images/salby_fig8-5_outgoing-infrared-lines.png  used 
-on input line 208.
+on input line 206.
 (pdftex.def)             Requested size: 500.484pt x 358.71547pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1058,13 +1058,13 @@ Package rerunfilecheck Info: File `07_infrared-absorption-spectrum.out' has not
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27995 strings out of 474116
- 547961 string characters out of 5743682
+ 27993 strings out of 474116
+ 547939 string characters out of 5743682
  1941187 words of memory out of 5000000
  49769 multiletter control sequences out of 15000+600000
- 602699 words of font info for 127 fonts, out of 8000000 for 9000
+ 602612 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,9n,107p,1028b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,9n,107p,1028b,594s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.
 pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texl
@@ -1077,7 +1077,7 @@ r/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/te
 xlive/2024/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2024
 /texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dis
 t/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 07_infrared-absorption-spectrum.pdf (6 pages, 1038616 bytes).
+Output written on 07_infrared-absorption-spectrum.pdf (6 pages, 1039214 bytes).
 
 PDF statistics:
  150 PDF objects out of 1000 (max. 8388607)
