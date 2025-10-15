@@ -51,3 +51,12 @@
 \contentsline {subsection}{\numberline {7.1.1}Phase transitions and water}{46}{subsection.7.1.1}%
 \contentsline {section}{\numberline {7.2}Experiments and Analysis}{49}{section.7.2}%
 \contentsline {subsection}{\numberline {7.2.1}Boiling water!}{49}{subsection.7.2.1}%
+\contentsline {chapter}{\numberline {8}Evaporation and Clouds}{53}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Introduction and Definitions}{53}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Atmospheric pressure and a warm-up experiment}{53}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Relative humidity, absolute humidity, partial pressure of water}{54}{subsection.8.1.2}%
+\contentsline {section}{\numberline {8.2}Experiments and Analysis}{58}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Observing the dew point and frost point}{58}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Drying your hands}{60}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}An alcohol upside-down cloud}{61}{subsection.8.2.3}%
+\contentsline {subsection}{\numberline {8.2.4}Clouds}{62}{subsection.8.2.4}%
