@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.26)  16 OCT 2025 07:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.26)  16 OCT 2025 09:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -986,9 +986,12 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 91
 (/usr/local/texlive/2024/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-10.
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+12.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
@@ -1000,7 +1003,7 @@ st/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2024/texmf-dist/fonts/e
 nc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/l
 m/lm-ts1.enc}]
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-136.
+138.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1009,61 +1012,93 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}]
-<images/08_psychrometric_angelica-isa.png, id=39, 1144.275pt x 753.81625pt>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 139.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 139.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 139.
+ [2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}] [3] [4]
+<images/08_psychrometric_angelica-isa.png, id=60, 1144.275pt x 753.81625pt>
 File: images/08_psychrometric_angelica-isa.png Graphic file (type png)
 <use images/08_psychrometric_angelica-isa.png>
 Package pdftex.def Info: images/08_psychrometric_angelica-isa.png  used on inpu
-t line 165.
+t line 182.
 (pdftex.def)             Requested size: 475.45825pt x 313.219pt.
 <images/08_pressure-vs-temperature-clausius-clapeyron_mathez-fig-1-2_no-caption
-.png, id=40, 1494.58376pt x 1118.1775pt>
+.png, id=61, 1494.58376pt x 1118.1775pt>
 File: images/08_pressure-vs-temperature-clausius-clapeyron_mathez-fig-1-2_no-ca
 ption.png Graphic file (type png)
 <use images/08_pressure-vs-temperature-clausius-clapeyron_mathez-fig-1-2_no-cap
 tion.png>
 Package pdftex.def Info: images/08_pressure-vs-temperature-clausius-clapeyron_m
-athez-fig-1-2_no-caption.png  used on input line 166.
+athez-fig-1-2_no-caption.png  used on input line 183.
 (pdftex.def)             Requested size: 475.45825pt x 355.70842pt.
 
 
-LaTeX Warning: Float too large for page by 45.26843pt on input line 170.
+LaTeX Warning: Float too large for page by 45.26843pt on input line 187.
 
-[3 <./images/08_psychrometric_angelica-isa.png> <./images/08_pressure-vs-temper
-ature-clausius-clapeyron_mathez-fig-1-2_no-caption.png>]
+<images/07_phase-diagram-of-water-simplified_wikimedia-Cmglee_edited.png, id=63
+, 449.88075pt x 332.08064pt>
+File: images/07_phase-diagram-of-water-simplified_wikimedia-Cmglee_edited.png G
+raphic file (type png)
+<use images/07_phase-diagram-of-water-simplified_wikimedia-Cmglee_edited.png>
+Package pdftex.def Info: images/07_phase-diagram-of-water-simplified_wikimedia-
+Cmglee_edited.png  used on input line 198.
+(pdftex.def)             Requested size: 681.15898pt x 502.80177pt.
+
+Overfull \hbox (2.31778pt too wide) in paragraph at lines 198--201
+[][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 27.5pt on input line 202.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./images/08_psychrometric_angelica-isa.png> <./images/08_pressure-vs-temper
+ature-clausius-clapeyron_mathez-fig-1-2_no-caption.png>] [6 <./images/07_phase-
+diagram-of-water-simplified_wikimedia-Cmglee_edited.png>]
 (./08_evaporation-radiative-convective-equilib.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `08_evaporation-radiative-convective-equilib.
 out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27936 strings out of 474116
- 547347 string characters out of 5743682
+ 28029 strings out of 474116
+ 549002 string characters out of 5743682
  1941187 words of memory out of 5000000
- 49769 multiletter control sequences out of 15000+600000
- 584954 words of font info for 94 fonts, out of 8000000 for 9000
+ 49815 multiletter control sequences out of 15000+600000
+ 598444 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,21n,107p,1040b,449s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,21n,107p,1040b,727s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/lo
 cal/texlive/2024/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texliv
 e/2024/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2024/tex
 mf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2024/texmf-dist/fon
-ts/type1/public/lm/lmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/pu
-blic/lm/lmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr
-6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texl
-ive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024/t
-exmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2024/texmf-dist/f
-onts/type1/public/lm/lmtt12.pfb>
-Output written on 08_evaporation-radiative-convective-equilib.pdf (3 pages, 468
-858 bytes).
+ts/type1/public/lm/lmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/pu
+blic/lm/lmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr
+17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr
+/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texli
+ve/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2024/texm
+f-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2024/texmf-dist/fon
+ts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p
+ublic/lm/lmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lm
+tt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on 08_evaporation-radiative-convective-equilib.pdf (6 pages, 701
+007 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 14871 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 21532 words of extra memory for PDF output out of 24883 (max. 10000000)
 
