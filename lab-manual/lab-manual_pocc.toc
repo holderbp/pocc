@@ -60,4 +60,5 @@
 \contentsline {subsection}{\numberline {8.2.1}Observing the dew point and frost point}{59}{subsection.8.2.1}%
 \contentsline {subsection}{\numberline {8.2.2}Drying your hands}{61}{subsection.8.2.2}%
 \contentsline {subsection}{\numberline {8.2.3}An alcohol upside-down cloud}{62}{subsection.8.2.3}%
-\contentsline {subsection}{\numberline {8.2.4}Clouds}{63}{subsection.8.2.4}%
+\contentsline {subsection}{\numberline {8.2.4}Cloud convection}{64}{subsection.8.2.4}%
+\contentsline {subsection}{\numberline {8.2.5}Less convective clouds}{65}{subsection.8.2.5}%
