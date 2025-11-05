@@ -4,3 +4,12 @@ grades
 *DS_store*
 book.pdf
 extra-stuff-not-on-github
+# latex st
+*.aux
+*.log
+*.synctex.gz
+*.nav
+*.toc
+*.out
+*.snm
+
