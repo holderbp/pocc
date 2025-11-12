@@ -1,7 +1,7 @@
 admin/rosters
 grades
 *~
-*DS_store*
+*.DS_Store
 book.pdf
 extra-stuff-not-on-github
 # latex st
@@ -12,4 +12,4 @@ extra-stuff-not-on-github
 *.toc
 *.out
 *.snm
-
+octave-workspace
