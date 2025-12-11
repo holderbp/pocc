@@ -1,0 +1,29 @@
+
+
+http://hyperphysics.phy-astr.gsu.edu/hbase/Tables/thexp.html#c1
+http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/thexp.html#c1
+
+https://www.engineeringtoolbox.com/cubical-expansion-coefficients-d_1262.html
+
+
+https://web.archive.org/web/20250207061706/https://engineeringtoolbox.com/water-density-specific-weight-d_595.html
+
+T	vol therm exp coeff ( 1e-4/K )
+4	0.003
+10	0.88
+15	1.51
+20	2.07
+25	2.57
+30	3.03
+35	3.45
+40	3.84
+45	4.20
+50	4.54
+55	4.86
+60	5.16
+65	5.44
+70	5.71
+75	5.97
+80	6.21
+
+
