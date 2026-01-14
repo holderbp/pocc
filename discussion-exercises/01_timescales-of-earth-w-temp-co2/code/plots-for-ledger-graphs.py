@@ -71,7 +71,8 @@ data_for_row = [
 # units to be used for plotting each row (Mya, kya, ya)
 units_for_row = [1000000, 1000000, 1000, 1, 1]
 # starting time  (5Gya = 5000 Mya, 100 Mya, 1 Mya = 1000 kya, 20 kya, 20Gya)
-left_time_for_row = [5000, 100, 1000, 4000, 2e10]
+#left_time_for_row = [5000, 100, 1000, 4000, 2e10]
+left_time_for_row = [5000, 100, 1000, 15000, 2e10]
 #left_time_for_row = [5000, 100, 1000, 25000, 2e10]
 # min/max Temp bounds for plot
 tempbounds_for_row = [ [-7, 17], [-7, 18], [-7, 6], [-2.5, 3], [-7, 16] ]
